@@ -18,7 +18,7 @@
         </p>
 
         <div class="mt-auto">
-          <a href="#" class="inline-block bg-teal-500 hover:bg-teal-600 active:bg-teal-700 focus-visible:ring ring-teal-300 text-white text-sm md:text-2xl font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3">iGEMを支援する</a>
+          <a href="https://forms.gle/Wm4VeKUBuEL9zcQz7" target="_blank"  class="inline-block bg-teal-500 hover:bg-teal-600 active:bg-teal-700 focus-visible:ring ring-teal-300 text-white text-sm md:text-2xl font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3">iGEMを支援する</a>
         </div>
       </div>
       <!-- content - end -->
