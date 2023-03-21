@@ -9,12 +9,16 @@
   @apply list-disc pl-10;
 }
 
+.markdown h1 {
+  @apply text-teal-500 text-4xl md:text-6xl font-bold text-center my-16;
+}
+
 .markdown h2 {
-  @apply text-gray-800 text-3xl md:text-5xl font-bold text-start my-6;
+  @apply text-gray-800 text-2xl md:text-4xl font-bold text-start mt-16;
 }
 
 .markdown h3 {
-  @apply text-gray-800 text-xl md:text-3xl font-bold text-start my-2 border-b border-black;
+  @apply text-gray-800 text-xl md:text-2xl font-bold text-start my-2 border-b border-black;
 }
 
 .markdown h4 {
