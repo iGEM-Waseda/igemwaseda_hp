@@ -32,13 +32,22 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     '@nuxt/postcss8',
+    '@nuxtjs/composition-api/module'
     // ...
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/markdownit'
   ],
-
+  markdownit: {
+    preset: 'default',
+    html: true,
+    breaks: true,
+    linkify: false,
+    runtime: true,
+    use: []
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     postcss: {

@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-screen-lg px-4 md:px-8 mx-auto my-8 my-16">
+  <div class="max-w-screen-lg px-4 md:px-8 mx-auto sm:my-8 my-16">
     <div class="flex mb-4">
       <h2 class="text-gray-800 text-3xl md:text-5xl font-bold text-start">{{ Title }}</h2>
       <NuxtLink class="flex items-center text-base md:text-2xl mt-3 hover:border-b-4 border-teal-500 text-teal-500 font-bold ml-2 md:ml-5" :to="LinkTo">
