@@ -1,7 +1,6 @@
 <template>
   <div>
     <Navbar/>
-    <TopImage/>
     <!-- <Synbio id="synbio"/>
     <About id="igem"/> -->
     <!-- <Gallery id="team"/> -->
@@ -19,7 +18,6 @@ import Synbio from '../components/Organisms/Synbio.vue';
 import Team from '../components/Organisms/Team.vue';
 import Action from '../components/Organisms/Action.vue';
 import Projects from '../components/Organisms/Projects.vue';
-import TopImage from '../components/Organisms/TopImage.vue';
 import Navbar from '../components/Organisms/Navbar.vue';
 export default {
     components: {
@@ -30,7 +28,6 @@ export default {
     Team,
     Projects,
     Action,
-    TopImage,
     Navbar
 }
 }

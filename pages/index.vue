@@ -1,8 +1,7 @@
 
-import Section from '../components/Molecules/Section.vue';
-
 <template>
   <div>
+    <TopImage/>
     <Section 
       :Title="`iGEMについて`"
       :LinkTo="`/igem`">
@@ -47,10 +46,12 @@ import Section from '../components/Molecules/Section.vue';
 <script>
 import Section from "../components/Molecules/Section.vue";
 import { Tweet, Moment, Timeline } from 'vue-tweet-embed'
+import TopImage from '../components/Organisms/TopImage.vue';
 export default {
   components: {
     Section,
-    Timeline
+    Timeline,
+    TopImage
   }
 }
 </script>
