@@ -23,8 +23,8 @@
       <div class="hidden md:block">
         <ul class="flex space-x-8 text-sm font-sans">
           <!-- <li><a href="#" class="active border-b-2 border-blue-500 pb-1">Home</a></li> -->
-          <li v-for ="(name, index) in menu.name" :key="name">
-            <NuxtLink :to="menu.id[index]" class="text-gray-600 hover:text-teal-500 active:text-teal-700 text-2xl font-bold transition duration-100">
+          <li v-for ="(name, index) in $store.state.menu.name" :key="name">
+            <NuxtLink :to="$store.state.menu.to[index]" class="text-gray-600 hover:text-teal-500 active:text-teal-700 text-2xl font-bold transition duration-100">
               {{ name }}
             </NuxtLink>
           </li>
@@ -67,7 +67,7 @@
         </span>
 
         <ul class="divide-y">
-          <li v-for ="menu in menu.name" :key="menu"><a href="#" @click="isOpen = false" class="my-4 inline-block">
+          <li v-for ="menu in $store.state.menu.name" :key="menu"><a href="#" @click="isOpen = false" class="my-4 inline-block">
               {{ menu }}
           </a></li>
         </ul>
@@ -112,11 +112,8 @@ import Social from '../Molecules/Social.vue';
 export default {
     data() {
         return {
+          
             isOpen: false,
-            menu: {
-              name: ['iGEMとは', '合成生物学とは', 'チーム', 'メンバー', '活動内容', 'プロジェクト', '寄付'],
-              id: ['#igem', '#synbio', '#team', '#project', '#project', '#project', '#fund']
-            },
             view: {
               atTopOfPage: true
             }
