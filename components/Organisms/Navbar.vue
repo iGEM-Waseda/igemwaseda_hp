@@ -1,7 +1,7 @@
 <template>
   <nav class="bg-white sticky top-0 z-50 border-b" :class="{ 'scrolled': !view.atTopOfPage }" >
     <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
-    <div class="flex justify-between items-center py-4 md:py-6">
+    <div class="flex justify-between items-center py-2 md:py-4">
 
       <!-- Header logo -->
       <Logo/>
@@ -10,7 +10,7 @@
       <div class="md:hidden">
         <button @click="drawer">
           <svg 
-            class="h-8 w-8 sm:h-14 sm:w-14 fill-current text-black"
+            class="h-10 w-10 sm:h-14 sm:w-14 fill-current text-black"
             fill="none" stroke-linecap="round" 
             stroke-linejoin="round" stroke-width="2" 
             viewBox="0 0 24 24" stroke="currentColor">
@@ -114,8 +114,8 @@ export default {
         return {
             isOpen: false,
             menu: {
-              name: ['iGEMとは', '合成生物学とは', 'チーム', 'プロジェクト', '基金'],
-              id: ['#igem', '#synbio', '#team', '#project', '#fund']
+              name: ['iGEMとは', '合成生物学とは', 'チーム', 'メンバー', '活動内容', 'プロジェクト', '寄付'],
+              id: ['#igem', '#synbio', '#team', '#project', '#project', '#project', '#fund']
             },
             view: {
               atTopOfPage: true

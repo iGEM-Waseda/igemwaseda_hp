@@ -2,12 +2,12 @@
   <div>
     <Navbar/>
     <TopImage/>
-    <Synbio id="synbio"/>
-    <About id="igem"/>
+    <!-- <Synbio id="synbio"/>
+    <About id="igem"/> -->
     <!-- <Gallery id="team"/> -->
     <!-- <Projects id="project"/> -->
     <!-- <Action id="fund"/> -->
-    <!-- <nuxt /> -->
+    <nuxt />
     <Footer />
   </div>
 </template>
