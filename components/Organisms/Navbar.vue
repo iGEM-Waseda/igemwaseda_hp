@@ -23,9 +23,9 @@
       <div class="hidden md:block">
         <ul class="flex space-x-8 text-sm font-sans">
           <!-- <li><a href="#" class="active border-b-2 border-blue-500 pb-1">Home</a></li> -->
-          <li v-for ="(name, index) in $store.state.menu.name" :key="name">
-            <NuxtLink :to="$store.state.menu.to[index]" class="text-gray-600 hover:text-teal-500 active:text-teal-700 text-2xl font-bold transition duration-100">
-              {{ name }}
+          <li v-for ="(menu, index) in $store.state.menu" :key="index">
+            <NuxtLink :to="menu.to" class="text-gray-600 hover:text-teal-500 active:text-teal-700 text-2xl font-bold transition duration-100">
+              {{ menu.name }}
             </NuxtLink>
           </li>
 
@@ -67,8 +67,8 @@
         </span>
 
         <ul class="divide-y">
-          <li v-for ="menu in $store.state.menu.name" :key="menu"><a href="#" @click="isOpen = false" class="my-4 inline-block">
-              {{ menu }}
+          <li v-for ="menu in $store.state.menu[menu]" :key="menu"><a href="#" @click="isOpen = false" class="my-4 inline-block">
+              {{ menu.name }}
           </a></li>
         </ul>
         <div class="my-4"> 

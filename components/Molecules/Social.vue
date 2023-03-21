@@ -1,8 +1,8 @@
 <template>
 <div class="social flex space-x-5 mt-4 ">
   <TwitterBtn/>
-  <YoutubeBtn/>
   <InstagramBtn/>
+  <YoutubeBtn/>
 </div>
 </template>
 <script>

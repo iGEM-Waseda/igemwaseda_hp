@@ -10,7 +10,7 @@ export default{
   components: { MarkDown },
   data(){
     return {
-      filepath: 'igem.md'
+      filepath: 'synbio.md'
     }
   }
 }
