@@ -13,29 +13,37 @@
 
     <!-- stat - start -->
     <div class="flex flex-col items-center">
-      <div class="text-white text-xl sm:text-2xl md:text-3xl font-bold">350</div>
-      <div class="text-teal-200 text-sm sm:text-base">Teams/Year</div>
+      <div class="text-white text-xl sm:text-2xl md:text-3xl font-bold">Since</div>
+      <div class="text-teal-200 text-sm sm:text-base">2019</div>
     </div>
     <!-- stat - end -->
     
     <!-- stat - start -->
     <div class="flex flex-col items-center">
-      <div class="text-white text-xl sm:text-2xl md:text-3xl font-bold">2</div>
-      <div class="text-teal-200 text-sm sm:text-base">Gold Medals(2020-2022)</div>
+      <div class="text-white text-xl sm:text-2xl md:text-3xl font-bold">Medals</div>
+      <div class="text-teal-200 text-sm sm:text-base">
+        iGEM2020<br>
+        iGEM2022<br>
+      </div>
     </div>
     <!-- stat - end -->
 
     <!-- stat - start -->
     <div class="flex flex-col items-center">
-      <div class="text-white text-xl sm:text-2xl md:text-3xl font-bold">2 Nomination</div>
-      <div class="text-teal-200 text-sm sm:text-base">Best Foundational Advance(2022)<br>Best Education(2020)</div>
+      <div class="text-white text-xl sm:text-2xl md:text-3xl font-bold"> Nominations</div>
+        <div class="text-teal-200 text-sm sm:text-base">
+        Best Foundational Advance(2022)<br>
+        Best Education(2020)
+      </div>
     </div>
 
 
     <!-- stat - start -->
     <div class="flex flex-col items-center">
-      <div class="text-white text-xl sm:text-2xl md:text-3xl font-bold">1 Track Award</div>
-      <div class="text-teal-200 text-sm sm:text-base">Best Information Processing(2020)</div>
+      <div class="text-white text-xl sm:text-2xl md:text-3xl font-bold">Track Award</div>
+      <div class="text-teal-200 text-sm sm:text-base">
+        Best Information Processing(2020)
+      </div>
     </div>
     <!-- stat - end -->
   </div>

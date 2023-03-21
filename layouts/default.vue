@@ -1,20 +1,17 @@
 <template>
   <div>
-    <!-- <Header /> -->
     <Navbar/>
     <TopImage/>
     <Synbio id="synbio"/>
     <About id="igem"/>
-    <Gallery id="team"/>
-    <Projects id="project"/>
-    <!-- <Team /> -->
-    <Action id="fund"/>
+    <!-- <Gallery id="team"/> -->
+    <!-- <Projects id="project"/> -->
+    <!-- <Action id="fund"/> -->
     <!-- <nuxt /> -->
     <Footer />
   </div>
 </template>
 <script>
-import Header from '../components/Organisms/Header.vue';
 import Footer from '../components/Organisms/Footer.vue';
 import Gallery from '../components/Organisms/Gallery.vue';
 import About from '../components/Organisms/About.vue';
@@ -26,7 +23,6 @@ import TopImage from '../components/Organisms/TopImage.vue';
 import Navbar from '../components/Organisms/Navbar.vue';
 export default {
     components: {
-    Header,
     Footer,
     Gallery,
     About,
