@@ -1,7 +1,7 @@
 <template>
     <section class="h-screen flex justify-center items-center flex-1 shrink-0 bg-gray-100 overflow-hidden shadow-lg rounded-lg relative py-16 md:py-20 xl:py-48 mb-20 -mt-28">
-      <img :src="require(`@/assets/image/TopImage.png`)" loading="lazy" alt="Photo of 2022 iGEM Team Waseda Tokyo" class="max-md:hidden  w-full h-full object-cover object-center absolute inset-1" />
-      <img :src="require(`@/assets/image/top-right.png`)" loading="lazy" alt="Photo of 2022 iGEM Team Waseda Tokyo" class="md:hidden w-full h-full object-cover object-center absolute inset-1"/>
+      <img :src="require(`@/assets/image/homeimage.png`)" loading="lazy" alt="Photo of 2022 iGEM Team Waseda Tokyo" class="max-md:hidden  w-full h-full object-cover object-center absolute inset-1" />
+      <img :src="require(`@/assets/image/home-right.png`)" loading="lazy" alt="Photo of 2022 iGEM Team Waseda Tokyo" class="md:hidden w-full h-full object-cover object-center absolute inset-1"/>
 
       <div class="bg-gray-500 mix-blend-multiply absolute inset-0"></div>
 

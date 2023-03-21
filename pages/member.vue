@@ -1,22 +1,13 @@
 <template>
 <!-- team - start -->
-<div class="bg-white py-6 sm:py-8 lg:py-12">
-  <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
-    <!-- text - start -->
-    <div class="mb-10 md:mb-16">
-      <h2 class="text-gray-800 text-2xl lg:text-3xl font-bold text-center mb-4 md:mb-6">Meet our Team</h2>
-
-      <p class="max-w-screen-md text-gray-500 md:text-lg text-center mx-auto">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated.</p>
-    </div>
-    <!-- text - end -->
-
+<div>
+  <MarkDown :filepath= "filepath"/>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-x-4 lg:gap-x-8 gap-y-8 lg:gap-y-12">
       <!-- person - start -->
       <div class="flex flex-col items-center">
-        <div class="w-24 md:w-32 h-24 md:h-32 bg-gray-100 rounded-full overflow-hidden shadow-lg mb-2 md:mb-4">
+        <div class="w-24 md:w-48 h-24 md:h-48 bg-gray-100 rounded-full overflow-hidden shadow-lg mb-2 md:mb-4">
           <img src="https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=256" loading="lazy" alt="Photo by Radu Florin" class="w-full h-full object-cover object-center" />
         </div>
-
         <div>
           <div class="text-indigo-500 md:text-lg font-bold text-center">John McCulling</div>
           <p class="text-gray-500 text-sm md:text-base text-center mb-3 md:mb-4">Founder / CEO</p>
@@ -43,5 +34,15 @@
       <!-- person - end -->
     </div>
   </div>
-</div>
 </template>
+<script>
+import MarkDown from '../components/MarkDown.vue'
+export default{
+components: { MarkDown },
+data(){
+  return {
+    filepath: 'member.md'
+  }
+}
+}
+</script>
