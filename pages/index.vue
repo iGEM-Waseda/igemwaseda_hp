@@ -25,7 +25,7 @@ import Section from '../components/Molecules/Section.vue';
       生物実験は、<a class="underline text-teal-500 hover:text-teal-500" href="https://www.waseda.jp/inst/twins/">早稲田大学 先端生命医科学センター（TWIns）</a> にて行っております。
       その他に、不定期で出張授業、専門家へのインタビュー、iGEM Japan Comunity共同イベントなどを開催しております。
       <br><br>
-      <Timeline class="w-3/5 text-center" id="Wasedaigem" sourceType="profile" :options="{ tweetLimit: '2' }"/>
+      <Timeline class="md:w-3/5 text-center" id="Wasedaigem" sourceType="profile" :options="{ tweetLimit: '2' }"/>
     </Section>        
     <Section 
       :Title="`チーム紹介`"
@@ -39,7 +39,7 @@ import Section from '../components/Molecules/Section.vue';
     </Section>    
     <Section 
       :Title="`寄付・協賛のご案内`"
-      :LinkTo="`/projects`">
+      :LinkTo="`/fund`">
       iGEMへの出場には大変多くの金額がかります。チームの登録費が<b>$5500 USD</b>、対面参加費が<b>$3,000 USD</b>、個人参加費が<b>$500 USD</b> <a href="https://competition.igem.org/registration/fees">(引用)</a>さらに実験でも薬剤費がかかります。合成生物学は環境問題、食糧問題を解決するポテンシャルを秘めています。もし私たちの理念に共感してくれる方に、お力添えいただけると幸いです。
     </Section>
   </div>

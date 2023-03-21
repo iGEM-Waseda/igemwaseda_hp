@@ -1,5 +1,5 @@
 <template>
-<a href="https://www.instagram.com/igemwaseda/">
+<a href="https://www.instagram.com/igemwaseda/" target="_blank">
   <svg 
     aria-hidden="true" focusable="false" 
     data-prefix="fab" data-icon="instagram" 

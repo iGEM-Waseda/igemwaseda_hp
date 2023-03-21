@@ -1,5 +1,5 @@
 <template>
-<a href="https://www.youtube.com/channel/UCpQ6GSDWUO_qQ8sFg2IwSoA">
+<a href="https://www.youtube.com/channel/UCpQ6GSDWUO_qQ8sFg2IwSoA" target="_blank">
   <svg 
     aria-hidden="true" focusable="false" 
     data-prefix="fab" data-icon="youtube" 

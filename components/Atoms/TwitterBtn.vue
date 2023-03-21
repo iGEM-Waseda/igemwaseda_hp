@@ -1,5 +1,5 @@
 <template>
-  <a href="https://twitter.com/wasedaigem">
+  <a href="https://twitter.com/wasedaigem" target="_blank">
     <svg 
       aria-hidden="true" focusable="false" 
       data-prefix="fab" data-icon="twitter" 
