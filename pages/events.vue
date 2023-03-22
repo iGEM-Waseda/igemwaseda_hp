@@ -15,8 +15,9 @@ export default{
       filepath: 'events.md'
       }
     },
-    head: {
-      return: {
+  head() {
+    return {
+        title: '活動内容',
         meta: [
           { hid: 'og:title', property: 'og:title', content: '活動内容' },
           { hid: 'og:url', property: 'og:url', content: 'https://igem-waseda.netlify.app/events' },

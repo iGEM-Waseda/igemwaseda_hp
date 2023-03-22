@@ -26,8 +26,9 @@ export default {
       design: 'design.md',
     }
   },
-  head: {
-      return: {
+  head() {
+    return {
+        title: 'チーム',
         meta: [
           { hid: 'og:title', property: 'og:title', content: 'チーム' },
           { hid: 'og:url', property: 'og:url', content: 'https://igem-waseda.netlify.app/team' },

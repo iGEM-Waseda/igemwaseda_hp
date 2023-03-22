@@ -37,7 +37,7 @@ export default {
   components: {
     Section,
     Timeline,
-    HomeImage
+    HomeImage,
   },
   head: {
     titleTemplate: null,

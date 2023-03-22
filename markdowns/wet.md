@@ -34,7 +34,7 @@ IV. 微生物を利用して合成されたタンパク質の分析・利用
 |:--:|
 |<b>Fig.2 蛍光を持つように遺伝子を改変した大腸菌抽出液</b>|
 
-![実験の様子](https://res.cloudinary.com/bishopfunc/image/upload/v1679476473/igemwaseda/wet-3_irtjfq.png)
+![実験の様子](https://res.cloudinary.com/bishopfunc/image/upload/v1679476473/igemwaseda/wet-3_irtjfq.png)|
 |:--:|
 |<b>Fig.3 実験の様子</b>|
 

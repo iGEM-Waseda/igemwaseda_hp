@@ -45,13 +45,14 @@ data(){
       filepath: 'member.md'
     }
   },
-  head: {
-      return: {
-        meta: [
-          { hid: 'og:title', property: 'og:title', content: 'メンバー' },
-          { hid: 'og:url', property: 'og:url', content: 'https://igem-waseda.netlify.app/member' },
-        ],
-      }
-    }      
+head() {
+    return {
+      title: 'メンバー',
+      meta: [
+        { hid: 'og:title', property: 'og:title', content: 'メンバー' },
+        { hid: 'og:url', property: 'og:url', content: 'https://igem-waseda.netlify.app/member' },
+      ],
+    }
+  }      
 }
 </script>

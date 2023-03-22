@@ -5,7 +5,7 @@
     <About id="igem"/> -->
     <!-- <Gallery id="team"/> -->
     <!-- <Projects id="project"/> -->
-    <!-- <Action id="fund"/> -->
+
     <nuxt />
     <Footer />
   </div>
