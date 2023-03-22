@@ -14,7 +14,7 @@
         <MemberCard :name="`小川 智也`" :team="`Wiki`" :major="`先進理工学部 電気・情報生命工学科 3年`"/>
         <MemberCard :name="`山本 翔太`" :team="`Dry / Wiki`" :major="`基幹理工学部 情報理工学科 3年`"/>
       </div>
-      <h2 class="text-gray-800 text-2xl md:text-4xl font-bold text-start my-8">Ssophomore(B2)</h2>
+      <h2 class="text-gray-800 text-2xl md:text-4xl font-bold text-start my-8">Sophomore(B2)</h2>
       <div class="grid grid-cols-2 md:grid-cols-4 gap-x-4 lg:gap-x-8 gap-y-8 lg:gap-y-12">
         <MemberCard :name="`桑原 涼歌`" :team="`Wet / Dry`" :major="`先進理工学部 電気・情報生命工学科 2年`"/>
         <MemberCard :name="`大附 綾也`" :team="`HP-Education`" :major="`先進理工学部 電気・情報生命工学科 2年`"/>

@@ -67,9 +67,11 @@
         </span>
 
         <ul class="divide-y">
-          <li v-for ="menu in $store.state.menu" :key="menu"><a href="#" @click="isOpen = false" class="my-4 inline-block">
+          <li v-for ="menu in $store.state.menu" :key="menu">
+            <NuxtLink :to="menu.to" @click="isOpen = false" class="my-4 inline-block">
               {{ menu.name }}
-          </a></li>
+            </NuxtLink>
+        </li>
         </ul>
         <div class="my-4"> 
           <a href="#" @click="isOpen = false" class="my-2 w-full text-center font-semibold cta inline-block px-3 py-2 rounded text-sm md:text-2xl transition duration-100
