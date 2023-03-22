@@ -15,8 +15,8 @@ Illustratorというアプリを使ってイラストを作成しています。
 
 |![](https://ik.imagekit.io/igemwaseda/igemwaseda-hp/design-1.jpg)|![](https://ik.imagekit.io/igemwaseda/igemwaseda-hp/design-2.jpg)|
 |------	| ------ |
-|||
-<!-- | <b>Fig.7 一般重視色覚と1型2色覚の比較</b> | <b>Fig.8 2型2色覚と3型2色覚の比較</b> | -->
+<!-- | <b>Fig.7 一般重視色覚と1型2色覚の比較</b> | -->
+ <!-- <b>Fig.8 2型2色覚と3型2色覚の比較</b> | -->
 ### video班 
 主にRushやPremia Proというアプリを用いてビデオを作成しています。昨年は、大会で提出するプロモーションビデオと、ホルモンプロジェクトに関連して、生理の仕組みについての教育ビデオの2つを作成しました。 
 

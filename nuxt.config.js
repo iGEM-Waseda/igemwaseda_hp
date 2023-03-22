@@ -5,7 +5,7 @@ export default {
       lang: 'ja',
       prefix: 'og: http://ogp.me/ns#'
     },
-    titleTemplate: '%s — ' + 'iGEM Waseda',
+    titleTemplate: '%s - ' + 'iGEM Waseda',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
