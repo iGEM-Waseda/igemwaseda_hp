@@ -25,6 +25,14 @@ export default {
       human_practice: 'human-practice.md',
       design: 'design.md',
     }
-  }
+  },
+  head: {
+      return: {
+        meta: [
+          { hid: 'og:title', property: 'og:title', content: 'チーム' },
+          { hid: 'og:url', property: 'og:url', content: 'https://igem-waseda.netlify.app/team' },
+        ],
+      }
+    }      
 }
 </script>

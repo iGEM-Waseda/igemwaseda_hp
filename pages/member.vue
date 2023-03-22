@@ -42,8 +42,16 @@ export default{
 components: { MarkDown, MemberCard },
 data(){
   return {
-    filepath: 'member.md'
-  }
-}
+      filepath: 'member.md'
+    }
+  },
+  head: {
+      return: {
+        meta: [
+          { hid: 'og:title', property: 'og:title', content: 'メンバー' },
+          { hid: 'og:url', property: 'og:url', content: 'https://igem-waseda.netlify.app/member' },
+        ],
+      }
+    }      
 }
 </script>

@@ -12,6 +12,14 @@ export default{
     return {
       filepath: 'projects.md'
     }
-  }
+  },
+  head: {
+      return: {
+        meta: [
+          { hid: 'og:title', property: 'og:title', content: 'プロジェクト' },
+          { hid: 'og:url', property: 'og:url', content: 'https://igem-waseda.netlify.app/projects' },
+        ],
+      }
+    }      
 }
 </script>

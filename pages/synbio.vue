@@ -12,6 +12,14 @@ export default{
     return {
       filepath: 'synbio.md'
     }
-  }
+  },
+  head: {
+      return: {
+        meta: [
+          { hid: 'og:title', property: 'og:title', content: '合成生物学とは' },
+          { hid: 'og:url', property: 'og:url', content: 'https://igem-waseda.netlify.app/synbio' },
+        ],
+      }
+    }     
 }
 </script>

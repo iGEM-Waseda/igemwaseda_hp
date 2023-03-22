@@ -12,6 +12,14 @@ export default{
     return {
       filepath: 'igem.md'
     }
-  }
+  },
+  head: {
+      return: {
+        meta: [
+          { hid: 'og:title', property: 'og:title', content: 'iGEMとは' },
+          { hid: 'og:url', property: 'og:url', content: 'https://igem-waseda.netlify.app/igem' },
+        ],
+      }
+    }      
 }
 </script>
