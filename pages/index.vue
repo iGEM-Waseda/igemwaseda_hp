@@ -3,10 +3,10 @@
   <div>
     <HomeImage/>
     <Section :menu="`igem`">
-      iGEM(<b>I</b>nternational <b>G</b>enetically <b>E</b>ngineered <b>M</b>achine)とは国際的な合成生物学の大会です。iGEMではBioBricksという生物の遺伝子を規格化したパーツ配布しており、それらを組み合わせ社会に役立つ生物作り出すことを目標としています。過去のプロジェクト例として、環境中の有害物質を検出する大腸菌や養殖魚の病気を検知する大腸菌などがあり、いずれも社会的、ビジネス的課題を学生たちの力で解決しています。
+      iGEM(<b>I</b>nternational <b>G</b>enetically <b>E</b>ngineered <b>M</b>achine)は、国際的な合成生物学の大会です。大会では、BioBricksという生物の遺伝子を規格化したパーツを配布し、それらを組み合わせて、社会に役立つ生物を作り出すことを目指しています。過去のプロジェクトでは、環境中の有害物質を検出する大腸菌や、養殖魚の病気を検知する大腸菌などが開発され、学生たちの力で社会的・ビジネス的な課題が解決されています。
     </Section>
     <Section :menu="`synbio`">
-      皆さんは合成生物学という言葉を聞き慣れないかもしれませんが、実は今最先端で研究されている分野です。組織・細胞・遺伝子などの生物の構成要素を部品とみなし、それらを組み合わせて生命機能を人工的に設計したり、人工の生物システムを構築する学問分野だと言われています。(日経バイオテクONLINEより転載)。
+      合成生物学は、今注目を浴びている最先端の研究分野です。組織・細胞・遺伝子などの生物の構成要素を部品とみなし、それらを組み合わせて生命機能を人工的に設計したり、人工の生物システムを構築する学問分野だと言われています。(日経バイオテクONLINEより転載)。
     </Section>
     <Section :menu="`projects`">
       早稲田チームは2020年と2022年の2回のiGEM出場を果たしています。2020年の<b><NuxtLink to="https://2020.igem.org/Team:Waseda">Zombie vs Sumrai</NuxtLink></b>では、Gold MedalとBest Information Processing(部門1位)、Best Education Nomination(部門3位以内)という最高成績を得ることができました。2022年の<b><NuxtLink to="https://2022.igem.wiki/waseda-tokyo/">Cell Freedom ~ Expanding the Possibility of cell-free system</NuxtLink></b>では、Gold MedalとBest Foundational Advancement Nominationという成績を得ることができました。
