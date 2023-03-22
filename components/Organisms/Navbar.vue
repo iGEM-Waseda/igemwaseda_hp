@@ -71,14 +71,14 @@
         </li>
         </ul>
         <div class="my-4"> 
-          <a href="https://forms.gle/Wm4VeKUBuEL9zcQz7" @click="isOpen = false" class="my-2 w-full text-center font-semibold cta inline-block px-3 py-2 rounded text-sm md:text-2xl transition duration-100
+          <a href="https://forms.gle/Wm4VeKUBuEL9zcQz7" target="_blank" @click="isOpen = false" class="my-2 w-full text-center font-semibold cta inline-block px-3 py-2 rounded text-sm md:text-2xl transition duration-100
             bg-teal-500 
             hover:bg-teal-600 
             active:bg-teal-700 
             text-white">
             iGEMを支援する
           </a>
-          <a href="https://forms.gle/d9vutEpNdFtSLneZA" @click="isOpen = false" class="my-2 w-full text-center font-semibold cta inline-block px-3 py-2 rounded text-sm md:text-2xl transition duration-100
+          <a href="https://forms.gle/d9vutEpNdFtSLneZA" target="_blank" @click="isOpen = false" class="my-2 w-full text-center font-semibold cta inline-block px-3 py-2 rounded text-sm md:text-2xl transition duration-100
             bg-gray-200 
             hover:bg-gray-300 
             active:text-gray-700
