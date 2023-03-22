@@ -38,6 +38,10 @@ export default {
     Section,
     Timeline,
     HomeImage
+  },
+  head: {
+    titleTemplate: null,
+    title: 'iGEM Waseda'
   }
 }
 </script>
