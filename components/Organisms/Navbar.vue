@@ -22,14 +22,11 @@
       <!-- Navbar -->
       <div class="hidden md:block">
         <ul class="flex space-x-8 text-sm font-sans">
-          <!-- <li><a href="#" class="active border-b-2 border-blue-500 pb-1">Home</a></li> -->
           <li v-for ="(menu, index) in $store.state.menu" :key="index">
             <NuxtLink :to="menu.to" class="text-gray-600 hover:text-teal-500 active:text-teal-700 text-2xl font-bold transition duration-100">
               {{ menu.name }}
             </NuxtLink>
           </li>
-
-          <!-- <li><a href="#" class="cta bg-blue-500 hover:bg-blue-600 px-3 py-2 rounded text-white font-semibold">Sign Up</a></li> -->
         </ul>
       </div>
 
@@ -74,14 +71,14 @@
         </li>
         </ul>
         <div class="my-4"> 
-          <a href="#" @click="isOpen = false" class="my-2 w-full text-center font-semibold cta inline-block px-3 py-2 rounded text-sm md:text-2xl transition duration-100
+          <a href="https://forms.gle/Wm4VeKUBuEL9zcQz7" @click="isOpen = false" class="my-2 w-full text-center font-semibold cta inline-block px-3 py-2 rounded text-sm md:text-2xl transition duration-100
             bg-teal-500 
             hover:bg-teal-600 
             active:bg-teal-700 
             text-white">
             iGEMを支援する
           </a>
-          <a href="#" @click="isOpen = false" class="my-2 w-full text-center font-semibold cta inline-block px-3 py-2 rounded text-sm md:text-2xl transition duration-100
+          <a href="https://forms.gle/d9vutEpNdFtSLneZA" @click="isOpen = false" class="my-2 w-full text-center font-semibold cta inline-block px-3 py-2 rounded text-sm md:text-2xl transition duration-100
             bg-gray-200 
             hover:bg-gray-300 
             active:text-gray-700
