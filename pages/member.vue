@@ -2,43 +2,44 @@
 <!-- team - start -->
 <div>
   <MarkDown :filepath= "filepath"/>
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-x-4 lg:gap-x-8 gap-y-8 lg:gap-y-12">
-      <!-- person - start -->
-      <div class="flex flex-col items-center">
-        <div class="w-24 md:w-48 h-24 md:h-48 bg-gray-100 rounded-full overflow-hidden shadow-lg mb-2 md:mb-4">
-          <img src="https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=256" loading="lazy" alt="Photo by Radu Florin" class="w-full h-full object-cover object-center" />
-        </div>
-        <div>
-          <div class="text-indigo-500 md:text-lg font-bold text-center">John McCulling</div>
-          <p class="text-gray-500 text-sm md:text-base text-center mb-3 md:mb-4">Founder / CEO</p>
-
-          <!-- social - start -->
-          <div class="flex justify-center">
-            <div class="flex gap-4">
-              <a href="#" target="_blank" class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
-                <svg class="w-5 h-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-                </svg>
-              </a>
-
-              <a href="#" target="_blank" class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
-                <svg class="w-5 h-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
-                </svg>
-              </a>
-            </div>
-          </div>
-          <!-- social - end -->
-        </div>
+  <div class="max-w-screen-lg px-4 md:px-8 mx-auto sm:my-8 my-16">
+      <h2 class="text-gray-800 text-2xl md:text-4xl font-bold text-start my-8">Junior(B3)</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-x-4 lg:gap-x-8 gap-y-8 lg:gap-y-12">
+        <MemberCard :name="`林﨑 諒巡`" :team="`幹事長 / Wet / HP`" :major="`先進理工学部 生命医科学科 3年`"/>
+        <MemberCard :name="`本郷 祐規`" :team="`副幹事長 / Wet / Video`" :major="`先進理工学部 生命医科学科 3年`"/>
+        <MemberCard :name="`戸田 航平`" :team="`会計 / Wet / Video`" :major="`先進理工学部 生命医科学科 3年`"/>
+        <MemberCard :name="`飯島 壮大郎`" :team="`Wet / HP-Entrepreneur`" :major="`先進理工学部 電気・情報生命工学科 3年`"/>
+        <MemberCard :name="`佐々 木彩佳`" :team="`Dry`" :major="`先進理工学部 電気・情報生命工学科 3年`"/>
+        <MemberCard :name="`土屋 茉由`" :team="`Illustrator / Video`" :major="`先進理工学部 電気・情報生命工学科 3年`"/>
+        <MemberCard :name="`小川 智也`" :team="`Wiki`" :major="`先進理工学部 電気・情報生命工学科 3年`"/>
+        <MemberCard :name="`山本 翔太`" :team="`Dry / Wiki`" :major="`基幹理工学部 情報理工学科 3年`"/>
       </div>
-      <!-- person - end -->
+      <h2 class="text-gray-800 text-2xl md:text-4xl font-bold text-start my-8">Ssophomore(B2)</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-x-4 lg:gap-x-8 gap-y-8 lg:gap-y-12">
+        <MemberCard :name="`桑原 涼歌`" :team="`Wet / Dry`" :major="`先進理工学部 電気・情報生命工学科 2年`"/>
+        <MemberCard :name="`大附 綾也`" :team="`HP-Education`" :major="`先進理工学部 電気・情報生命工学科 2年`"/>
+        <MemberCard :name="`深沢 仁貴`" :team="`Wet / HP-Collaboration`" :major="`先進理工学部 生命医科学科 2年`"/>
+        <MemberCard :name="`中村 春香`" :team="`Wet / HP-Education`" :major="`先進理工学部 生命医科学科 2年`"/>
+        <MemberCard :name="`渡辺 華`" :team="`Wet / HP-Collaboration`" :major="`先進理工学部 生命医科学科 2年`"/>
+        <MemberCard :name="`青沼 龍太朗`" :team="`Wet / HP-Education`" :major="`先進理工学部 生命医科学科 2年`"/>
+        <MemberCard :name="`横堀 襄`" :team="`Dry / HP-Collaboration`" :major="`先進理工学部 生命医科学科 2年`"/>
+        <MemberCard :name="`慶野 恵茉`" :team="`Wet / HP-Education`" :major="`教育学部 理学科 生物学専修 2年`"/>
+        <MemberCard :name="`吉田 楓`" :team="`HP-Education`" :major="`先進理工学部 Major in Bioscience 2年`"/>
+        <MemberCard :name="`宮本 遼人`" :team="`Dry / Wiki`" :major="`基幹理工学部 情報理工学科 2年`"/>
+      </div>
+      <h2 class="text-gray-800 text-2xl md:text-4xl font-bold text-start my-8">Instructors</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-x-4 lg:gap-x-8 gap-y-8 lg:gap-y-12">
+        <MemberCard :name="`木賀 大介`" :team="`Principal Investigator`" :major="`理工学術院先進理工学部 電気・情報生命工学科 教授`"/>
+        <MemberCard :name="`朝日 透`" :team="`Principal Investigator`" :major="`理工学術院先進理工学部 生命医科学科 教授`"/>        
+      </div>      
     </div>
   </div>
 </template>
 <script>
 import MarkDown from '../components/MarkDown.vue'
+import MemberCard from '../components/Molecules/MemberCard.vue'
 export default{
-components: { MarkDown },
+components: { MarkDown, MemberCard },
 data(){
   return {
     filepath: 'member.md'

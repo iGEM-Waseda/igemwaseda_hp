@@ -67,7 +67,7 @@
         </span>
 
         <ul class="divide-y">
-          <li v-for ="menu in $store.state.menu[menu]" :key="menu"><a href="#" @click="isOpen = false" class="my-4 inline-block">
+          <li v-for ="menu in $store.state.menu" :key="menu"><a href="#" @click="isOpen = false" class="my-4 inline-block">
               {{ menu.name }}
           </a></li>
         </ul>
@@ -110,6 +110,9 @@ import Logo from '../Atoms/Logo.vue';
 import Social from '../Molecules/Social.vue';
 
 export default {
+    props: {
+      menu: {}
+    },
     data() {
         return {
           

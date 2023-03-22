@@ -16,7 +16,7 @@
       生物実験は、<a class="underline text-teal-500 hover:text-teal-500" href="https://www.waseda.jp/inst/twins/">早稲田大学 先端生命医科学センター（TWIns）</a> にて行っております。
       その他に、不定期で出張授業、専門家へのインタビュー、iGEM Japan Comunity共同イベントなどを開催しております。
       <br><br>
-      <Timeline class="md:w-3/5 text-center" id="Wasedaigem" sourceType="profile" :options="{ tweetLimit: '2' }"/>
+      <Timeline class="md:w-3/5 mx-auto" id="Wasedaigem" sourceType="profile" :options="{ tweetLimit: '2' }"/>
     </Section>        
     <Section :menu="`team`">
       iGEMの活動は生物系だけではありません。活動は主にWet, Dry, Human Practiceに3つにわけることができます。Wetでは自分でプロジェクト立案、実験計画から実際の生物実験まで担当します。Dryでは実験のシミュレーション、デバイスやアプリの作成をします。Human Practiceは合成生物学の教育普及、海外チームとのコラボレーション、専門家へのインタビュー、事業化計画など様々な分野があります。また、それ以外でも成果発表用のウェブサイトを作成するwiki班, プロモーションビデオを作成するvideo班やillustrator班などがあります。videoやillustratorなどは年間を通して人員を募集しているので、興味ある方は次の<u><a href="/" class="hover:bg-teal-500">リンク</a></u>にご連絡ください。
