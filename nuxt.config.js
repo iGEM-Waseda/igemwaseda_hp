@@ -54,10 +54,16 @@ export default {
   modules: [
     '@nuxtjs/markdownit',
     "@nuxtjs/sitemap",
+    '@nuxtjs/robots',
   ],
   sitemap: {
     path: "/sitemap.xml",
     hostname: "https://igem-waseda.netlify.app",
+  },
+  robots: {
+    UserAgent: '*',
+    Disallow: '',
+    Sitemap: 'https://igem-waseda.netlify.app/sitemap.xml',
   },
   markdownit: {
     preset: 'default',
