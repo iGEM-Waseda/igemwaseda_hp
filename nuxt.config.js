@@ -20,8 +20,10 @@ export default {
       { hid: 'og:image', property: 'og:image', content: '@/assets/image/homeimage.png' },
 
       { hid: 'fb:app_id', property: 'fb:app_id', content: 'App-ID' },
+      { hid: "twitter:image", name: "twitter:image", content: "@/assets/image/homeimage.png" },
+      { hid: "twitter:title", name: "twitter:title", content: "iGEM Waseda" },
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
-      { hid: 'twitter:site', name: 'twitter:site', content: '@Twitter' }
+      { hid: 'twitter:site', name: 'twitter:site', content: '@Wasedaigem' }
     ]
   },
 
@@ -41,14 +43,22 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     '@nuxt/postcss8',
-    '@nuxtjs/composition-api/module'
+    '@nuxtjs/composition-api/module',
+    '@nuxtjs/google-analytics',
     // ...
   ],
-
+  googleAnalytics: {
+    id: 'UA-204616622-1',
+  },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxtjs/markdownit'
+    '@nuxtjs/markdownit',
+    "@nuxtjs/sitemap",
   ],
+  sitemap: {
+    path: "/sitemap.xml",
+    hostname: "https://igem-waseda.netlify.app",
+  },
   markdownit: {
     preset: 'default',
     html: true,
