@@ -62,7 +62,7 @@ export default {
   },
   robots: {
     UserAgent: '*',
-    Disallow: '',
+    Disallow: '/',
     Sitemap: 'https://igem-waseda.netlify.app/sitemap.xml',
   },
   markdownit: {
