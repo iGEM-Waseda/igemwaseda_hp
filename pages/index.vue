@@ -9,7 +9,7 @@
       合成生物学は、今注目を浴びている最先端の研究分野です。組織・細胞・遺伝子などの生物の構成要素を部品とみなし、それらを組み合わせて生命機能を人工的に設計したり、人工の生物システムを構築する学問分野だと言われています。(日経バイオテクONLINEより転載)。
     </Section>
     <Section :menu="`projects`">
-      2020年のプロジェクト<a class="underline text-teal-500 hover:text-teal-500" href="https://2020.igem.org/Team:Waseda">「Zombie vs Samurai」</a> では、初のゴールドメダルだけでなく、情報処理部門(Information Processing)で最優秀賞を獲得し、教育部門での3位以内にノミネートされました。<br>
+      2020年のプロジェクト<a class="underline text-teal-500 hover:text-teal-500" href="https://2020.igem.org/Team:Waseda">「Zombie vs Samurai」</a> では、初のゴールドメダルだけでなく、情報処理部門(Information Processing)で最優秀賞を獲得し、教育部門で3位以内にノミネートされました。<br>
       2022年のプロジェクト<a class="underline text-teal-500 hover:text-teal-500" href="https://2022.igem.wiki/waseda-tokyo/">「Cell Freedom  ~ Expanding the Possibility of cell-free system ~」</a>では、ゴールドメダルを獲得し、また基礎技術開発部門(Foundational Advancement)の最優秀賞候補にノミネートされました。
     </Section>
     <Section :menu="`events`">
