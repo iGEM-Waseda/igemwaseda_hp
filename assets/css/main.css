@@ -34,8 +34,12 @@
 .markdown img {
   @apply mx-auto sm:w-4/5 w-3/5 my-6;
 }
+
+.markdown .youtube-container {
+  @apply mx-auto my-6 aspect-video sm:w-3/5 w-5/6;
+}
 .markdown iframe {
-  @apply mx-auto w-3/5 my-6;
+  @apply w-full h-full;
 }
 
 .markdown table {
