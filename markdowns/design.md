@@ -18,10 +18,12 @@ Illustratorというアプリを使ってイラストを作成しています。
 
 ### video班 
 主にRushやPremia Proというアプリを用いてビデオを作成しています。昨年は、大会で提出するプロモーションビデオと、ホルモンプロジェクトに関連して、生理の仕組みについての教育ビデオの2つを作成しました。 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WnV8Ap_gFdA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<iframe title="Waseda_Tokyo: Cell-Free-based Detection Platform (2022) - Project Promotion [English]" width="560" height="315" src="https://video.igem.org/videos/embed/8a2a0964-6ee3-4419-a81f-64156ca2b2f2" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+<div class="youtube-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/WnV8Ap_gFdA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<div class="youtube-container">
+    <iframe title="Waseda_Tokyo: Cell-Free-based Detection Platform (2022) - Project Promotion [English]" width="560" height="315" src="https://video.igem.org/videos/embed/8a2a0964-6ee3-4419-a81f-64156ca2b2f2" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+</div>
 
 イラストにアニメーションをつけるだけでなく、絵コンテや台本、ナレーションまで全てvideo班が作成しています。動画の編集だけでなく、動画の構成を作ってみたい方、ナレーションをやってみたい方も活躍できます。 
 
