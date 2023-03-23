@@ -13,7 +13,7 @@ Wikiとは、そのチームのプロジェクトを説明するホームペー�
 Illustratorというアプリを使ってイラストを作成しています。wiki班と協力して、wiki全体の配色や構造などのデザインを決めたり、wet班やdry班、video班などから依頼のあったイラストを作成しています。特に大会期間には、video班やwiki班と連携しながらwikiやプロモーションビデオの統一感を持たせます。また2022年では、色覚多様性を意識し、どの色覚の人でもわかりやすいデザインを取り入れました。 
 
 
-|![](https://ik.imagekit.io/igemwaseda/igemwaseda-hp/design-1.jpg)|![](https://ik.imagekit.io/igemwaseda/igemwaseda-hp/design-2.jpg)|
+|![](/images/design-1.jpg)|![](/images/design-2.jpg)|
 |------	| ------ |
 
 ### video班 
