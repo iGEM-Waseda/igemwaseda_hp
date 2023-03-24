@@ -67,6 +67,8 @@ iGEM 2022は制御部の開発が間に合いませんでしたが、次年度�
 ### Measurement 
 Measurementとは、Dry Labの中で実験結果の測定に関する分野のことを指します。iGEMチームによる成果は将来のチームやコミュニティ全体で使用できます。これを実現するには適切な測定が不可欠です。優れた測定が科学の進歩つながると考えています。単純に実験を行うだけでなく、適切なデータの視覚化、統計分析のスキルが求められます。
 
+キーワード： [**#データ可視化**](https://forms.gle/d9vutEpNdFtSLneZA) [**#標準化**](https://forms.gle/d9vutEpNdFtSLneZA) [**#統計**](https://forms.gle/d9vutEpNdFtSLneZA)  [**#データサイエンス**](https://forms.gle/d9vutEpNdFtSLneZA) [**#CAD**](https://forms.gle/d9vutEpNdFtSLneZA) [**#Python**](https://forms.gle/d9vutEpNdFtSLneZA) [**#R**](https://forms.gle/d9vutEpNdFtSLneZA) [**#MATLAB**](https://forms.gle/d9vutEpNdFtSLneZA) [**#数学科**](https://forms.gle/d9vutEpNdFtSLneZA) [**#情報学科**](https://forms.gle/d9vutEpNdFtSLneZA)
+
 以下が代表的なMeasurementプロジェクトの例です。
 - iGEM Partsの厳密な特性評価
 - 測定対象の革新
@@ -77,5 +79,4 @@ Measurementとは、Dry Labの中で実験結果の測定に関する分野の�
 - [https://2020.igem.org/Measurement/Introduction](https://2020.igem.org/Measurement/Introduction)
 - [https://2020.igem.org/Measurement/Examples](https://2020.igem.org/Measurement/Examples)
 
-キーワード： [**#データ可視化**](https://forms.gle/d9vutEpNdFtSLneZA) [**#標準化**](https://forms.gle/d9vutEpNdFtSLneZA) [**#統計**](https://forms.gle/d9vutEpNdFtSLneZA)  [**#データサイエンス**](https://forms.gle/d9vutEpNdFtSLneZA) [**#CAD**](https://forms.gle/d9vutEpNdFtSLneZA) [**#Python**](https://forms.gle/d9vutEpNdFtSLneZA) [**#R**](https://forms.gle/d9vutEpNdFtSLneZA) [**#MATLAB**](https://forms.gle/d9vutEpNdFtSLneZA) [**#数学科**](https://forms.gle/d9vutEpNdFtSLneZA) [**#情報学科**](https://forms.gle/d9vutEpNdFtSLneZA)
 
