@@ -4,8 +4,25 @@
     <Gallery/>
     <MarkDown id="wet" :filepath= "wet"/>
     <MarkDown id="dry" :filepath= "dry"/>
+    <div>
+      <a href="https://forms.gle/d9vutEpNdFtSLneZA" class="hover:underline hover:text-teal-500">
+        <p class="text-teal-500 text-2xl md:text-4xl font-bold text-center mx-auto my-16;">
+          Dry・情報系人材大募集！！<br>
+          バイオ×プログラミング<br>
+        </p>
+      </a>
+    </div>
     <MarkDown id="human-practice" :filepath= "human_practice"/>
     <MarkDown id="design" :filepath= "design"/>
+    <div>
+      <a href="https://forms.gle/d9vutEpNdFtSLneZA" class="hover:underline hover:text-teal-500">
+        <p class="text-teal-500 text-2xl md:text-4xl font-bold text-center mx-auto my-16;">
+          フロントエンド班、デザイン班メンバー大募集中！<br>
+          未経験でも大歓迎！<br>
+          一緒にwikiをつくりあげてみませんか！！ <br>
+        </p>
+      </a>
+    </div>    
   </div>
 </template>
 <style scoped>
