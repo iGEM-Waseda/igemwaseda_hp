@@ -27,10 +27,10 @@ export default {
       { hid: 'twitter:site', name: 'twitter:site', content: '@Wasedaigem' }
     ]
   },
-  // router: {
-  //   trailingSlash: false,
-  //   middleware: 'redirect'
-  // },
+  router: {
+    trailingSlash: false,
+    middleware: 'redirect'
+  },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '@/assets/css/main.css',
