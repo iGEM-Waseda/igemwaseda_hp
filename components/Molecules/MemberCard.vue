@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col items-center">
     <div class="w-36 md:w-48 h-36 md:h-48 bg-gray-100 rounded-full overflow-hidden shadow-lg mb-2 md:mb-4">
-      <img src="https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=256" loading="lazy" alt="" class="w-full h-full object-cover object-center" />
+      <img :src="imagePath" loading="lazy" alt="" class="w-full h-full object-cover object-center" />
     </div>
     <div>
       <div class="text-teal-500 text-base md:text-2xl font-bold text-center">{{ name }}</div>
@@ -15,10 +15,13 @@
 <script>
 export default {
   props: {
-    name: {}, 
-    team: {}, 
-    major: {}, 
-    motivation: {}, 
+    imagePath: {
+      default: "https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=256",
+    },
+    name: {},
+    team: {},
+    major: {},
+    motivation: {},
     hobbies: {}
   }
 }
