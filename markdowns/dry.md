@@ -35,7 +35,7 @@ Softwareとは、Dry Labの中でソフトウェア開発を行う分野のこ�
 キーワード： [**#アプリ開発**](https://forms.gle/d9vutEpNdFtSLneZA) [**#ゲーム開発**](https://forms.gle/d9vutEpNdFtSLneZA) [**#Unity**](https://forms.gle/d9vutEpNdFtSLneZA) [**#Python**](https://forms.gle/d9vutEpNdFtSLneZA) [**#GUI**](https://forms.gle/d9vutEpNdFtSLneZA) [**#情報学科**](https://forms.gle/d9vutEpNdFtSLneZA) 
 
 #### 1. Toggle Switch Simulator
-iGEM Waseda 2022で開発した微分方程式のパラメータを直感的に操作できる教育ツールです。
+iGEM Waseda 2020で開発した微分方程式のパラメータを直感的に操作できる教育ツールです。
 リンク： [https://tomoino.github.io/education-tool/](https://tomoino.github.io/education-tool/)
 ![](/images/dry-software-2.png)
 
