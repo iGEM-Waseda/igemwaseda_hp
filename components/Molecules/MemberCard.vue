@@ -37,6 +37,9 @@
                 <p>
                   {{ major }}
                 </p>
+                <p>
+                  {{ introText }}
+                </p>
                 <button
                   @click="closeModal"
                   class="absolute top-4 right-4 text-xl cursor-pointer"
@@ -78,6 +81,7 @@ export default {
     name: {},
     team: {},
     major: {},
+    introText: {},
     motivation: {},
     hobbies: {},
   },
