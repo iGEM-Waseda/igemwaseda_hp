@@ -20,9 +20,9 @@ IV. 微生物を利用して合成されたタンパク質の分析・利用
 の順序を踏んで、遺伝子の設計を行っていきます。弊チームの中でもWetの分担ですが、Wetのメンバーはこの時ばかりはPC上のSoft Ware “Snap Gene®”とにらめっこになります。 
 
 
-|![遺伝子設計ソフトウェア Snap Gene®の作業画面](https://res.cloudinary.com/bishopfunc/image/upload/v1679476479/igemwaseda/wet-1_el4j7k.png)|
+|![遺伝子設計ソフトウェア Snap Gene®の作業画面](/images/wet-1.png)|
 |:--:|
-|<b>Fig.1 遺伝子設計ソフトウェア Snap Gene®の作業画面</b>|
+|<b>Fig.1-1 遺伝子設計ソフトウェア Snap Gene®の作業画面</b>|
 
 
 次に、こうして設計できたDNA分子を実際に合成します。市販されている遺伝子工学用の制限酵素を用い、望む遺伝子分子を実装していきます。 
@@ -30,22 +30,22 @@ IV. 微生物を利用して合成されたタンパク質の分析・利用
 ### II. 遺伝子組み換えDNAを微生物に導入実験 
 さて、目的の遺伝子パーツが合成されましたが、この部品が実際に動くか確かめなければなりません。Wasedaチームではモデル微生物として、大腸菌を用いています。大腸菌にこの遺伝子パーツを導入して何が起こるか記録します。 
 
-|![蛍光を持つように遺伝子を改変した大腸菌抽出液 ](https://res.cloudinary.com/bishopfunc/image/upload/v1679476479/igemwaseda/wet-2_wc8rsk.png)|
+|![蛍光を持つように遺伝子を改変した大腸菌抽出液 ](/images/wet-2.png)|
 |:--:|
-|<b>Fig.2 蛍光を持つように遺伝子を改変した大腸菌抽出液</b>|
+|<b>Fig.1-2 蛍光を持つように遺伝子を改変した大腸菌抽出液</b>|
 
-![実験の様子](https://res.cloudinary.com/bishopfunc/image/upload/v1679476473/igemwaseda/wet-3_irtjfq.png)|
+![実験の様子](/images/wet-3.png)|
 |:--:|
-|<b>Fig.3 実験の様子</b>|
+|<b>Fig.1-3 実験の様子</b>|
 
 ### III. 遺伝子組み換え体の培養実験 
 
 遺伝子パーツの機能性が確認出来たら、次は効率的な産生が必要です。 
-幸い、N匹の微生物は、培養を経ることで、その数をN×2n  匹にすることができます。この微生物の増殖能を利用して遺伝子パーツやタンパク質の増産をすることができます。 
+幸い、N匹の微生物は、培養を経ることで、その数をN×2<sup>n</sup>匹にすることができます。この微生物の増殖能を利用して遺伝子パーツやタンパク質の増産をすることができます。 
 
-|![遺伝子パーツluxRおよびタンパク質LuxRの増産のイメージ図](https://res.cloudinary.com/bishopfunc/image/upload/v1679476478/igemwaseda/wet-4_uefict.png)|
+|![遺伝子パーツluxRおよびタンパク質LuxRの増産のイメージ図](/images/wet-4.png)|
 |:--:|
-|<b>Fig.4 遺伝子パーツluxRおよびタンパク質LuxRの増産のイメージ図</b>|
+|<b>Fig.1-4 遺伝子パーツluxRおよびタンパク質LuxRの増産のイメージ図</b>|
 
 ### IV. 微生物を利用して合成されたタンパク質の分析・利用 
  
@@ -53,17 +53,17 @@ IV. 微生物を利用して合成されたタンパク質の分析・利用
 
 合成生物学により目的のタンパク質ができたら、その性能を試さなければいけません。産生できたタンパク質が望み通りの機能を持っているかどうかを確かめます。 
 
-|![世界初の成果としてiGEM Waseda_Tokyoが合成生物学で女性ホルモンProgesteroneを検知した様子](https://res.cloudinary.com/bishopfunc/image/upload/v1679476478/igemwaseda/wet-5_g2jml4.png)|
+|![世界初の成果としてiGEM Waseda_Tokyoが合成生物学で女性ホルモンProgesteroneを検知した様子](/images/wet-5.png)|
 |:--:|
-|<b>Fig.5 世界初の成果としてiGEM Waseda_Tokyoが合成生物学で女性ホルモンProgesteroneを検知した様子</b>|
+|<b>Fig.1-5 世界初の成果としてiGEM Waseda_Tokyoが合成生物学で女性ホルモンProgesteroneを検知した様子</b>|
 
 
 
 現在、iGEM Waseda_Tokyoは早稲田大学と東京女子医科大学の共同研究施設である「TWIns；東京女子医科大学・早稲田大学連携先端生命医科学研究教育施設」（Tokyo Women’s Medical University-Waseda University Joint Institution for Advanced Biomedical Sciences）という施設でWet実験を行っています。 
 
-|![Twinsの前での集合写真](https://res.cloudinary.com/bishopfunc/image/upload/v1679476479/igemwaseda/wet-6_iflifw.jpg)|
+|![Twinsの前での集合写真](/images/wet-6.jpg)|
 |:--:|
-|<b>Fig.6 Twinsの前での集合写真</b>|
+|<b>Fig.1-6 Twinsの前での集合写真</b>|
 
 このWetの活動には多くの資金が必要になります。研究室の維持のために係る支出だけでなく、実験のために必要な試薬の購入には、学生だけでは賄いきれない支出があります。 
 

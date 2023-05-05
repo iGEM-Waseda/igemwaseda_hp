@@ -1,0 +1,4 @@
+User-Agent:*
+Disallow:
+
+Sitemap:https://igem-waseda.netlify.app/sitemap.xml
