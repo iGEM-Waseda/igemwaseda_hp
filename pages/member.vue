@@ -119,6 +119,7 @@
           :major="`先進理工学部 Major in Bioscience 2年`"
         />
         <MemberCard
+          :imagePath="require('@/assets/image/member/ryoto-miyamoto.jpg')"
           :name="`宮本 遼人`"
           :team="`Dry / Wiki`"
           :major="`基幹理工学部 情報理工学科 2年`"
