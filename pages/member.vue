@@ -14,6 +14,8 @@
           :name="`林﨑 諒巡`"
           :team="`幹事長 / Wet / HP`"
           :major="`先進理工学部 生命医科学科 3年`"
+          :hobbies="`水球 / スキューバ ダイビング`"
+          :introText="`次回出場の時は、絶対に表彰台に上りたい...!`"
         />
         <MemberCard
           :imagePath="require('@/assets/image/member/yuki-hongo.png')"

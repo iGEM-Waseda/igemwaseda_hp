@@ -30,16 +30,15 @@
                     class="w-full h-full object-cover object-center"
                   />
                 </div>
-                <h2 class="text-xl font-semibold mb-4">{{ name }}</h2>
-                <p>
-                  {{ team }}
-                </p>
-                <p>
-                  {{ major }}
-                </p>
-                <p>
-                  {{ introText }}
-                </p>
+                <h2
+                  class="text-2xl text-center text-teal-500 font-semibold mb-4"
+                >
+                  {{ name }}
+                </h2>
+                <p><b>担当</b>: {{ team }}</p>
+                <p><b>所属</b>: {{ major }}</p>
+                <p v-if="hobbies"><b>趣味</b>: {{ hobbies }}</p>
+                <p v-if="introText"><b>一言</b>: {{ introText }}</p>
                 <button
                   @click="closeModal"
                   class="absolute top-4 right-4 text-xl cursor-pointer"
