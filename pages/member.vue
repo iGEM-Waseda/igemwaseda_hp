@@ -14,8 +14,6 @@
           :name="`林﨑 諒巡`"
           :team="`幹事長 / Wet / HP`"
           :major="`先進理工学部 生命医科学科 3年`"
-          :hobbies="`水球 / スキューバ ダイビング`"
-          :introText="`次回出場の時は、絶対に表彰台に上りたい...!`"
         />
         <MemberCard
           :imagePath="require('@/assets/image/member/yuki-hongo.png')"
@@ -58,6 +56,12 @@
           :name="`山本 翔太`"
           :team="`Dry / Wiki`"
           :major="`基幹理工学部 情報理工学科 3年`"
+        />
+        <MemberCard
+          :imagePath="require('@/assets/image/member/sei-tsukamura.jpg')"
+          :name="`束村 晴`"
+          :team="`Dry / Wet`"
+          :major="`先進理工学部 化学・生命化学科 3年`"
         />
       </div>
       <h2 class="text-gray-800 text-2xl md:text-4xl font-bold text-start my-8">
@@ -125,6 +129,67 @@
           :name="`宮本 遼人`"
           :team="`Dry / Wiki`"
           :major="`基幹理工学部 情報理工学科 2年`"
+        />
+      </div>
+      <h2 class="text-gray-800 text-2xl md:text-4xl font-bold text-start my-8">
+        Freshman(B1)
+      </h2>
+      <div
+        class="grid grid-cols-2 md:grid-cols-4 gap-x-4 lg:gap-x-8 gap-y-8 lg:gap-y-12"
+      >
+        <MemberCard
+          :imagePath="require('@/assets/image/member/haruka-harada.png')"
+          :name="`原田 遥`"
+          :team="`Wet`"
+          :major="`教育学部 理学科 生物学専修 １年`"
+        />
+        <MemberCard
+          :imagePath="require('@/assets/image/member/ryota-abe.jpg')"
+          :name="`阿部 諒太`"
+          :team="`Wet`"
+          :major="`先進理工学部 生命医科学科 1年`"
+        />
+        <MemberCard
+          :imagePath="require('@/assets/image/member/yuko-ota.jpg')"
+          :name="`太田 裕子`"
+          :team="`Wet`"
+          :major="`先進理工学部 生命医科学科 1年`"
+        />
+        <MemberCard
+          :imagePath="require('@/assets/image/member/shietsu-ko.jpg')"
+          :name="`高 子越`"
+          :team="`Wet`"
+          :major="`先進理工学部 生命医科学科 1年`"
+        />
+        <MemberCard
+          :imagePath="require('@/assets/image/member/eito-yamamoto.png')"
+          :name="`山本 瑛登`"
+          :team="`Wet`"
+          :major="`先進理工学部 生命医科学科 1年`"
+        />
+        <MemberCard
+          :imagePath="require('@/assets/image/member/itsuki-togawa.png')"
+          :name="`戸川 樹`"
+          :team="`Dry`"
+          :major="`先進理工学部 電気・情報生命工学科 1年`"
+        />
+        <MemberCard
+          :imagePath="require('@/assets/image/member/soudai-nao.png')"
+          :name="`奈尾 颯大`"
+          :team="`Dry`"
+          :major="`先進理工学部 物理学科 1年`"
+        />
+        <MemberCard
+          :imagePath="require('@/assets/image/member/jun-kawabata.jpg')"
+          :name="`川端 準`"
+          :team="`Dry`"
+          :major="`人間科学部 人間情報科学科 １年`"
+        />
+        <MemberCard
+          :imagePath="require('@/assets/image/member/sayaka-shigemi.jpg')"
+          :name="`重見 清香`"
+          :team="``"
+          :major="`政治経済部学部 政治学科 1年`"
         />
       </div>
       <h2 class="text-gray-800 text-2xl md:text-4xl font-bold text-start my-8">
