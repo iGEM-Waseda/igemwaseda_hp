@@ -49,14 +49,14 @@
           :hobbies="``"
           :introText="``"
         />
-        <MemberCard
+        <!-- <MemberCard
           :imagePath="require('@/assets/image/member/mayu-tsuchiya.png')"
           :name="`土屋 茉由`"
           :team="`Illustrator / Video`"
           :major="`先進理工学部 電気・情報生命工学科 3年`"
           :hobbies="``"
           :introText="``"
-        />
+        /> -->
         <MemberCard
           :imagePath="require('@/assets/image/member/tomoya-ogawa.png')"
           :name="`小川 智也`"
@@ -70,8 +70,8 @@
           :name="`山本 翔太`"
           :team="`Dry / Wiki`"
           :major="`基幹理工学部 情報理工学科 3年`"
-          :hobbies="``"
-          :introText="``"
+          :hobbies="`美術館に行く`"
+          :introText="`プログラミングちょっとできる、生物ナンモワカラン`"
         />
         <MemberCard
           :imagePath="require('@/assets/image/member/sei-tsukamura.jpg')"
@@ -88,14 +88,14 @@
       <div
         class="grid grid-cols-2 md:grid-cols-4 gap-x-4 lg:gap-x-8 gap-y-8 lg:gap-y-12"
       >
-        <MemberCard
+        <!-- <MemberCard
           :imagePath="require('@/assets/image/member/ryoka-kuwabara.png')"
           :name="`桑原 涼歌`"
           :team="`Wet / Dry`"
           :major="`先進理工学部 電気・情報生命工学科 2年`"
           :hobbies="`テレビ，マンガ，コントラバス`"
           :introText="`分からないことが分かるようになった時とコロニーができた時がiGEMで一番好きです`"
-        />
+        /> -->
         <MemberCard
           :imagePath="require('@/assets/image/member/ryoya-otsuki.png')"
           :name="`大附 綾也`"
@@ -144,22 +144,22 @@
           :hobbies="`鉄道、旅行、クラリネット`"
           :introText="`生物の可能性は無限大！と思って活動していきたいです！`"
         />
-        <MemberCard
+        <!-- <MemberCard
           :imagePath="require('@/assets/image/member/ema-keino.png')"
           :name="`慶野 恵茉`"
           :team="`Wet / HP-Education`"
           :major="`教育学部 理学科 生物学専修 2年`"
           :hobbies="`読書(ハリーポッター)`"
           :introText="`基礎的な部分もしっかり学び、科学に貢献してみたいと思います。`"
-        />
-        <MemberCard
+        /> -->
+        <!-- <MemberCard
           :imagePath="require('@/assets/image/member/kaede-yoshida.png')"
           :name="`吉田 楓`"
           :team="`HP-Education`"
           :major="`先進理工学部 Major in Bioscience 2年`"
           :hobbies="`謎解き、ハローキティ収集`"
           :introText="`iGEMで色々学んで将来の自分への糧にできたらいいなと思っています。`"
-        />
+        /> -->
         <MemberCard
           :imagePath="require('@/assets/image/member/ryoto-miyamoto.jpg')"
           :name="`宮本 遼人`"
