@@ -239,14 +239,6 @@
           :hobbies="`語学、読書、プログラミング、鉄道`"
           :introText="`バイオインフォマティックスの分野で頑張っていきます。よろしくお願いします。`"
         />
-        <MemberCard
-          :imagePath="require('@/assets/image/member/sayaka-shigemi.jpg')"
-          :name="`重見 清香`"
-          :team="``"
-          :major="`政治経済部学部 政治学科 1年`"
-          :hobbies="``"
-          :introText="``"
-        />
       </div>
       <h2 class="text-gray-800 text-2xl md:text-4xl font-bold text-start my-8">
         Instructors
