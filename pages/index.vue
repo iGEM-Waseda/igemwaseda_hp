@@ -2,6 +2,7 @@
 <template>
   <div>
     <HomeImage/>
+    <Crowdfunding/>
     <Section :menu="`igem`">
       iGEM(<b>I</b>nternational <b>G</b>enetically <b>E</b>ngineered <b>M</b>achine)は、国際的な合成生物学の大会です。大会では、BioBricksという生物の遺伝子を規格化したパーツを配布し、それらを組み合わせて、社会に役立つ生物を作り出すことを目指しています。過去のプロジェクトでは、環境中の有害物質を検出する大腸菌や、養殖魚の病気を検知する大腸菌などが開発され、学生たちの力で社会的・ビジネス的な課題が解決されています。
     </Section>
@@ -39,10 +40,12 @@
 </template>
 <script>
 import Section from "../components/Molecules/Section.vue";
+import Crowdfunding from "../components/Molecules/Crowdfunding.vue";
 import { Tweet, Moment, Timeline } from 'vue-tweet-embed'
 import HomeImage from '../components/Organisms/HomeImage.vue';
 export default {
   components: {
+    Crowdfunding,
     Section,
     Timeline,
     HomeImage,
