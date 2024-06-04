@@ -37,6 +37,7 @@
                 </h2>
                 <p><b>担当</b>: {{ team }}</p>
                 <p><b>所属</b>: {{ major }}</p>
+                <p v-if="highSchool"><b>高校</b>: {{ highSchool }}</p>
                 <p v-if="hobbies"><b>趣味</b>: {{ hobbies }}</p>
                 <p v-if="introText"><b>一言</b>: {{ introText }}</p>
                 <button
@@ -59,6 +60,7 @@
         {{ team }}
       </p>
       <p class="text-gray-500 text-xs text-center">{{ major }}</p>
+      <p class="text-gray-500 text-xs text-center">{{ highSchool }}</p>
       <button
         @click="openModal"
         class="bg-teal-500 text-white font-semibold mt-3 text-center px-4 py-1 rounded-md shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 transition duration-200 ease-in"
@@ -75,7 +77,8 @@ export default {
   props: {
     imagePath: {
       default:
-        "https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=256",
+      '',
+      // require('@assets/image/default-member.png'),
     },
     name: {},
     team: {},
@@ -83,6 +86,7 @@ export default {
     introText: {},
     motivation: {},
     hobbies: {},
+    highSchool: {},
   },
   data() {
     return {
