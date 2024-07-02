@@ -1,7 +1,7 @@
 
 <template>
   <div>
-    <HomeImage/>
+    <HomeImage/>   
     <Crowdfunding/>
     <Section :menu="`igem`">
       iGEM(<b>I</b>nternational <b>G</b>enetically <b>E</b>ngineered <b>M</b>achine)は、国際的な合成生物学の大会です。大会では、BioBricksという生物の遺伝子を規格化したパーツを配布し、それらを組み合わせて、社会に役立つ生物を作り出すことを目指しています。過去のプロジェクトでは、環境中の有害物質を検出する大腸菌や、養殖魚の病気を検知する大腸菌などが開発され、学生たちの力で社会的・ビジネス的な課題が解決されています。
@@ -15,7 +15,7 @@
     </Section>
     <Section :menu="`events`">
       iGEM Wasedaは週に1回、<a class="underline text-teal-500 hover:text-teal-500" target="_blank" href="https://www.koubou.sci.waseda.ac.jp/summary/LearningCommons61.html">61号館1階  ラーニング・コモンズ</a>でミーティングをしています。
-      生物実験は、<a class="underline text-teal-500 hover:text-teal-500" target="_blank" href="https://www.waseda.jp/inst/twins/">先端生命医科学センター（TWIns）</a>で行っています。
+      <!-- 生物実験は、<a class="underline text-teal-500 hover:text-teal-500" target="_blank" href="https://www.waseda.jp/inst/twins/">先端生命医科学センター（TWIns）</a>で行っています。 -->
       また、不定期で出張授業や専門家へのインタビュー、iGEM Japan Comunity共同イベントなども開催しています。
       <br><br>
       <Timeline class="md:w-3/5 mx-auto" id="Wasedaigem" sourceType="profile" :options="{ tweetLimit: '2' }"/>

@@ -58,13 +58,12 @@ IV. 微生物を利用して合成されたタンパク質の分析・利用
 |<b>Fig.1-5 世界初の成果としてiGEM Waseda_Tokyoが合成生物学で女性ホルモンProgesteroneを検知した様子</b>|
 
 
-
-現在、iGEM Waseda_Tokyoは早稲田大学と東京女子医科大学の共同研究施設である「TWIns；東京女子医科大学・早稲田大学連携先端生命医科学研究教育施設」（Tokyo Women’s Medical University-Waseda University Joint Institution for Advanced Biomedical Sciences）という施設でWet実験を行っています。 
+<!-- 現在、iGEM Waseda_Tokyoは早稲田大学と東京女子医科大学の共同研究施設である「TWIns；東京女子医科大学・早稲田大学連携先端生命医科学研究教育施設」（Tokyo Women’s Medical University-Waseda University Joint Institution for Advanced Biomedical Sciences）という施設でWet実験を行っています。 
 
 |![Twinsの前での集合写真](/images/wet-6.jpg)|
 |:--:|
-|<b>Fig.1-6 Twinsの前での集合写真</b>|
+|<b>Fig.1-6 Twinsの前での集合写真</b>| -->
 
-このWetの活動には多くの資金が必要になります。研究室の維持のために係る支出だけでなく、実験のために必要な試薬の購入には、学生だけでは賄いきれない支出があります。 
+これらWetの活動には多くの資金が必要になります。研究室の維持のために係る支出だけでなく、実験のために必要な試薬の購入には、学生だけでは賄いきれない支出があります。 
 
 私たちはこれからもWet実験を行い、合成生物学による新たな技術の創生を目指して参ります。私たちの活動に興味がある方・支援を希望する方がいらっしゃいましたらよろしくお願い申し上げます。 
