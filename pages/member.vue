@@ -117,6 +117,7 @@
           :introText="`コンピュータの応用として興味があったので入りました！頑張ります。`"
         />     
         <MemberCard
+          :imagePath="require('@/assets/image/member/taiki-kajiyama.jpg')"
           :name="`梶山 太軌`"
           :team="`Dry`"
           :major="`先進理工学部 電気・情報生命工学科`"
@@ -284,6 +285,7 @@
           :introText="`合成生物学の力で早稲田から世界に貢献します！`"
         />          
         <MemberCard
+          :imagePath="require('@/assets/image/member/taita-horiuchi.jpg')"
           :name="`堀内 太登`"
           :team="`Wet`"
           :major="`先進理工学部 化学・生命化学科`"
