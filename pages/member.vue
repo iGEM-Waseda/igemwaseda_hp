@@ -113,14 +113,16 @@
           :team="`Dry / Wiki`"
           :major="`基幹理工学部 情報理工学科`"
           :highSchool="`早稲田大学高等学院`"
-          :hobbies="``"
-          :introText="``"
+          :hobbies="`スノーボード、バイク、コンピュータ`"
+          :introText="`コンピュータの応用として興味があったので入りました！頑張ります。`"
         />     
         <MemberCard
           :name="`梶山 太軌`"
           :team="`Dry`"
           :major="`先進理工学部 電気・情報生命工学科`"
           :highSchool="`早稲田大学高等学院`"
+          :hobbies="`海外旅行、語学、筋トレ`"
+          :introText="`iGEMとG.E.M.が好き`"
         />                
       </div>
       <h2 class="text-gray-800 text-2xl md:text-4xl font-bold text-start my-8">
@@ -286,6 +288,8 @@
           :team="`Wet`"
           :major="`先進理工学部 化学・生命化学科`"
           :highSchool="`横浜翠嵐高校`"
+          :hobbies="`ジャズ/サックス`"
+          :introText="`iGEMに参加した高校のOBの方のお話を聴き興味を持ち、参加しました。全力で頑張ります！`"
         />
       </div>
       <h2 class="text-gray-800 text-2xl md:text-4xl font-bold text-start my-8">
@@ -295,17 +299,17 @@
         class="grid grid-cols-2 md:grid-cols-4 gap-x-4 lg:gap-x-8 gap-y-8 lg:gap-y-12"
       >
         <MemberCard
-          :imagePath="require('@/assets/image/member/daisuke-kiga.png')"
-          :name="`木賀 大介`"
-          :team="`Principal Investigator`"
-          :major="`理工学術院先進理工学部 電気・情報生命工学科 教授`"
-        />
-        <MemberCard
           :imagePath="require('@/assets/image/member/toru-asahi.png')"
           :name="`朝日 透`"
           :team="`Principal Investigator`"
           :major="`理工学術院先進理工学部 生命医科学科 教授`"
         />
+        <MemberCard
+          :imagePath="require('@/assets/image/member/daisuke-kiga.png')"
+          :name="`木賀 大介`"
+          :team="`Advisor`"
+          :major="`理工学術院先進理工学部 電気・情報生命工学科 教授`"
+        />        
       </div>
     </div>
   </div>
