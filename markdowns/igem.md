@@ -17,25 +17,14 @@ iGEM Foundation の活動内容の一環として、iGEM competition という�
 
 ## iGEM の評価基準
 
-iGEM は各チームが作成する wiki と呼ばれる<a target="_blank" href="https://2022.igem.wiki/waseda-tokyo/">ホームページ</a>と<a target="_blank" href="https://video.igem.org/w/pnmkZaeBygBvJ3Hp7z6JJV">Jamboree</a>と呼ばれる大会当日のプログラム中の質疑応答で評価されます。 また、iGEM の賞には以下があります。それぞれ異なった視点から評価されますが、偏らず、すべての完成度が高いチームが賞を獲得することが多い印象です。
+自分たちのプロジェクトをまとめたウェブページであるWikiと、大会本番での口頭でのJudging Sessionが評価の対象になります。
 
-- 総合的な賞として
-  Grand Prize, 1st runner up, 2nd runner up, Finalist, top 10
-- track と呼ばれるプロジェクトの分野ごとの賞として
-  Track Award, Track Award nominee
-- 審査基準の中で特に抜きんでていた項目の賞として
-  Special Prize, Special Prize nominee
-- 絶対評価の賞として
-  Gold Medal, Silver Medal, Bronze Medal
+![iGEMの評価基準](@/assets/image/igem-criteria.png)
 
-があります。
+iGEMには一定基準をクリアしたすべてのチームに対して与えられるMedalとプロジェクトや各活動の部門ごとに優秀なチームに対して与えられるVillage Awards、Special Awardsがあります。また、これらすべてを総合してFinalistおよび世界１位であるGrand Prizeが決まります。
 
-総合的な賞ではプロジェクト全体の実現可能性や実験結果、モデリング結果、社会的活動などが評価されます。分野ごとの賞でも総合的な賞と同様に評価されます。
-審査基準の中で特に抜きんでていた項目の賞は項目ごとに設けられた基準に沿って評価されます。例えば、Best Education では、
+![](@/assets/image/what-is-igem.png)
 
-1.どれだけ深い学びや議論を提供したか 2.他の人が見られるように文書化されているか 3.よく練られているか 4.チームの活動によって、より多くの人々が合成生物学に関わり、貢献し、そして参加できるようになると確信したか
-
-が評価基準になっています。
 
 ## iGEM の年間スケジュール
 
