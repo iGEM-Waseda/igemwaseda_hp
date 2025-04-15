@@ -1,3 +1,14 @@
 {
-  "nuxt.isNuxtApp": true
+  "nuxt.isNuxtApp": true,
+  "editor.tokenColorCustomizations": {
+    "comments": "",
+    "textMateRules": []
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": "true",
+    "scminput": false,
+    "latex": "true"
+  }
 }
