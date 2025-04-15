@@ -19,11 +19,11 @@ iGEM Foundation の活動内容の一環として、iGEM competition という�
 
 自分たちのプロジェクトをまとめたウェブページであるWikiと、大会本番での口頭でのJudging Sessionが評価の対象になります。
 
-![iGEMの評価基準](@/assets/image/igem-criteria.png)
+![iGEMの評価基準](/images/igem-criteria.png)
 
 iGEMには一定基準をクリアしたすべてのチームに対して与えられるMedalとプロジェクトや各活動の部門ごとに優秀なチームに対して与えられるVillage Awards、Special Awardsがあります。また、これらすべてを総合してFinalistおよび世界１位であるGrand Prizeが決まります。
 
-![](@/assets/image/what-is-igem.png)
+![](/images/what-is-igem.png)
 
 
 ## iGEM の年間スケジュール
