@@ -26,16 +26,14 @@
 │   ├── MarkDown.vue                  # markdownを表示するためのコンポーネント
 │   ├── Molecules               
 │   │   ├── Crowdfunding.vue          # クラウドファンディングのページ(現在は未使用)
-│   │   ├── MemberCard.vue            # メンバーのカード
+│   │   ├── MemberCard.vue            # メンバ紹介のカード(ポップアップ含む)
 │   │   ├── Section.vue               # トップページの各セクション用のコンポーネント
 │   │   └── Social.vue                # ページ下部のSNSボタンが並んでいる部分
 │   └── Organisms
 │       ├── Footer.vue                # フッター
-│       ├── Gallery.vue               # メンバーのギャラリー(wet, dry...が並んでいる部分)
+│       ├── Gallery.vue               # ギャラリー(/teamでwet, dry...が並んでいる部分)
 │       ├── HomeImage.vue             # トップページの画像
-│       ├── IntroductionPopup.vue     # メンバーの自己紹介ポップアップ
-│       ├── Navbar.vue                # ナビゲーションバー
-│       └── Projects.vue              # プロジェクトのページ
+│       └── Navbar.vue                # ナビゲーションバー
 ├── docs                              # ドキュメント用のフォルダ
 │   └── netlify_configure.png
 ├── layouts                           # レイアウト用のフォルダ
@@ -65,8 +63,8 @@
 │   ├── member.vue                    # メンバーページ(member.mdはタイトルのみとintroductionPopup.vueに情報を渡している)
 │   ├── projects.vue                  # プロジェクトのページ(projects.md読み込み)
 │   ├── synbio.vue                    # 合成生物学について(synbio.md読み込み)
-│   └── team.vue                      # チームについて(team.mdはタイトルのみ, wet.vue, dry.vue, design.vue, 
-│                                     #             human-practice.vueがメイン, .vue自体にも一部説明)
+│   └── team.vue                      # チームについて(team.mdはタイトルのみ, wet.md, dry.md, design.md, 
+│                                     #             human-practice.mdがメイン, .vue自体にも一部説明)
 ├── static                            # 静的ファイル用のフォルダ(ファイル名が変更されないため、markdownで使用)
 │   ├── favicon.ico                   # アイコン
 │   ├── images                        # 画像用のフォルダ(markdownで使用)
@@ -127,7 +125,8 @@ $ npx serve dist
 - 注意点として画像などは必ず生データをもらうこと。boxnote, google docs, wordなどから画像をダウンロードすることは難しいため。
 - 数式は現状対応していないので、数式を使う場合は、画像として保存してもらうこと。
 - 画像は、できるだけpng形式で保存してもらうこと。jpg形式は、画質が悪くなるため。
-## 文章
+
+### 文章
 1. 原稿のテキストをコピー
 2. `markdonws/hoge.md`を作成し、テキストをペースト
 3. `##` `###` `####`などを利用して、見出しを作成
@@ -135,7 +134,7 @@ $ npx serve dist
 5. 太字は`**text**`で書く
 6. 箇条書きは`-`で書く
 
-## 画像
+### 画像
 1. 画像を`static/images`以下に格納する
 2. ファイル名をページ名や内容に関連させる 例:`wet-1.png`
 3. 原稿内で`/images/hoge.png` をpathで指定する 
@@ -144,5 +143,41 @@ $ npx serve dist
   |![遺伝子設計ソフトウェア Snap Gene®の作業画面](/images/wet-1.png)|
   |:--:|
   |<b>Fig.1 遺伝子設計ソフトウェア Snap Gene®の作業画面</b>|
-````
+  ```
 5. iframeなどはmarkdown原稿にべた書きしている
+
+## メンバー追加手順
+1. `assets/image/member`にメンバーの画像を格納する
+2. `pages/member.vue`を開き、学年のセクションにメンバーの情報を追加する
+以下は`team-leader`のセクションの例
+```.vue
+<template>
+    <div class="max-w-screen-lg px-4 md:px-8 mx-auto sm:my-8 my-16">
+      <h2 class="text-gray-800 text-2xl md:text-4xl font-bold text-start my-8">
+        Team Leaders
+      </h2>
+      <div
+        class="grid grid-cols-2 md:grid-cols-4 gap-x-4 lg:gap-x-8 gap-y-8 lg:gap-y-12"
+      >
+        <MemberCard
+          :imagePath="require('@/assets/image/member/ryota-abe.png')"
+          :name="`阿部 諒太`"
+          :team="`【幹事長】/ Wet`"
+          :major="`先進理工学部 生命医科学科`"
+          :highSchool="`私立武蔵高校`"
+          :hobbies="`サッカー、格闘技観戦、漫画`"
+          :introText="`有り余った体力を活かしてチームで世界に羽ばたきたいです！ `"
+        />
+    ...
+      </div>
+    </div>
+</template>
+```
+記載できる情報は以下の通り
+- 名前 `name`
+- チーム名 `team`
+- 学科 `major`
+- 高校名 `highSchool`
+- 趣味 `hobbies`
+- 一言 `introText`
+- 画像パス `imagePath` (assets/image/member/xxx.png)
