@@ -1,11 +1,6 @@
 <template>
   <div>
     <Navbar/>
-    <!-- <Synbio id="synbio"/>
-    <About id="igem"/> -->
-    <!-- <Gallery id="team"/> -->
-    <!-- <Projects id="project"/> -->
-
     <nuxt />
     <Footer />
   </div>
