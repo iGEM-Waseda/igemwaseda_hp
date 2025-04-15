@@ -1,69 +1,148 @@
 # igemwaseda_hp
+## 概要
+- 本レポジトリは、iGEM Wasedaの公式HPを作成するためのものである。
+- iGEM Wasedaの公式HPは、[こちら](https://igemwaseda.org/)から確認できる。
+- 技術スタックは、Nuxt.jsとTailwind CSSを使用している。
+- ほとんどのページをmarkdownで作成し、一部のページはVueコンポーネントで作成している。
 
-## Build Setup
 
+## フォルダ構成
 ```bash
-# install dependencies
+.
+├── README.md                         # 本ドキュメントファイル
+├── assets                            # 静的ファイル用のフォルダ(ファイル名が変更される)
+│   ├── css                           # CSS用のフォルダ
+│   │   └── main.css                  # CSSファイル
+│   └── image                         # 画像用のフォルダ(コンポーネントで使用)
+│       ├── member                    # メンバー画像用のフォルダ    
+│       │   └── xxx.jpg
+│       └── xxx.png
+├── components                        # Vueコンポーネント用のフォルダ
+│   ├── Atoms
+│   │   ├── InstagramBtn.vue          # ページ下部のInstagramボタン
+│   │   ├── Logo.vue                  # ページ上部のロゴ
+│   │   ├── TwitterBtn.vue            # ページ下部のTwitterボタン
+│   │   └── YoutubeBtn.vue            # ページ下部のYoutubeボタン
+│   ├── MarkDown.vue                  # markdownを表示するためのコンポーネント
+│   ├── Molecules               
+│   │   ├── Crowdfunding.vue          # クラウドファンディングのページ(現在は未使用)
+│   │   ├── MemberCard.vue            # メンバーのカード
+│   │   ├── Section.vue               # トップページの各セクション用のコンポーネント
+│   │   └── Social.vue                # ページ下部のSNSボタンが並んでいる部分
+│   └── Organisms
+│       ├── Footer.vue                # フッター
+│       ├── Gallery.vue               # メンバーのギャラリー(wet, dry...が並んでいる部分)
+│       ├── HomeImage.vue             # トップページの画像
+│       ├── IntroductionPopup.vue     # メンバーの自己紹介ポップアップ
+│       ├── Navbar.vue                # ナビゲーションバー
+│       └── Projects.vue              # プロジェクトのページ
+├── docs                              # ドキュメント用のフォルダ
+│   └── netlify_configure.png
+├── layouts                           # レイアウト用のフォルダ
+│   └── default.vue                   # デフォルトレイアウト
+├── markdowns                         # markdownファイル用のフォルダ
+│   ├── design.md                     # design班の説明
+│   ├── dry.md                        # dry班の説明
+│   ├── events.md                     # 活動内容について
+│   ├── fund.md                       # 寄付・協賛のご案内
+│   ├── human-practice.md             # HP班の説明
+│   ├── igem.md                       # iGEMについて
+│   ├── member.md                     # メンバーページ(タイトルのみ)
+│   ├── projects.md                   # プロジェクトの
+│   ├── synbio.md                     # 合成生物学について
+│   ├── team.md                       # チームについて(タイトルのみ)
+│   └── wet.md                        # wet班の説明
+├── middleware                        # ミドルウェア用のフォルダ
+│   └── redirect.js                   # URLの最後の/のリダイレクト
+├── nuxt.config.js
+├── package-lock.json                 # npmのパッケージ管理ファイル
+├── package.json                      # npmのパッケージ管理ファイル 
+├── pages                             # ページ用のフォルダ(Vueコンポーネント)
+│   ├── events.vue                    # 活動内容について(events.mdの読み込みとTwitterの埋め込み)
+│   ├── fund.vue                      # 寄付・協賛のご案内(fund.md読み込みと.vue自体に説明)
+│   ├── igem.vue                      # iGEMについて(igem.mdの読み込み)
+│   ├── index.vue                     # トップページ(.vue自体の説明がメイン)
+│   ├── member.vue                    # メンバーページ(member.mdはタイトルのみとintroductionPopup.vueに情報を渡している)
+│   ├── projects.vue                  # プロジェクトのページ(projects.md読み込み)
+│   ├── synbio.vue                    # 合成生物学について(synbio.md読み込み)
+│   └── team.vue                      # チームについて(team.mdはタイトルのみ, wet.vue, dry.vue, design.vue, 
+│                                     #             human-practice.vueがメイン, .vue自体にも一部説明)
+├── static                            # 静的ファイル用のフォルダ(ファイル名が変更されないため、markdownで使用)
+│   ├── favicon.ico                   # アイコン
+│   ├── images                        # 画像用のフォルダ(markdownで使用)
+│   │   └── xxx.png
+│   └── robots.txt                    # スクレイピング対策
+├── store                             # Vuexストア用のフォルダ
+│   ├── README.md
+│   └── index.js                      # ナビゲーションバーの名前と対応するmarkdownファイルの名前を管理
+└── tailwind.config.js                # Tailwind CSSの設定ファイル
+```
+## 環境構築
+### 前提
+以下の環境で動作確認済み、他の環境ｄ
+- macOS Monterey 12.4 (Apple M1)
+- Node.js v16.14.2
+- npm v8.5.0
+
+### 手順
+以下のコマンドで入力すると、パッケージのインストールが始まる。
+```bash
+# 必要なパッケージをインストール
 $ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+次に、以下のコマンドで開発用サーバーを立ち上げる。
+```bash
+# 開発用サーバーを立ち上げる
+$ npm run dev
+```
 
-## Special Directories
+## 開発
+開発用のサーバーを立ち上げた状態で、`localhost:3000`にアクセスすると、開発用のページが表示される。ホットリロードが効いているので、ファイルを編集去れる度に、自動で更新される。
+```bash
+# 開発用サーバーを立ち上げる
+$ npm run dev
+```
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+一通りの開発が終わったら、以下のコマンドで静的サイトを生成し、問題がないか確認する。
+```bash
+# 静的サイトを生成する
+$ npm run generate
 
-### `assets`
+# 静的サイトを生成した後、ローカルサーバーを立ち上げる
+$ npx serve dist
+```
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+## デプロイ
+- 本ページは、netlifyを利用してデプロイしている。
+- [本レポジトリ](https://github.com/iGEM-Waseda/igemwaseda_hp)のgithubのmainブランチにpushすると、netlifyが自動でデプロイしてくれる。サイト更新にあたって、netlify上で設定は必要ない。
+- netlify上では、`npm run generate`を実行して、静的サイトを生成し、`dist`フォルダをデプロイするように設定している。以下のように、netlifyの設定を行う。
+- netlifyのアカウントは山本が管理しているので、無料プランではチームを追加できないため、アカウントを移行するか、引き続き山本のアカウントを利用するか、相談して決める。
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+![alt text](docs/netlify_configure.png)
 
 
-### `pages`
+## 原稿追加手順
+- 他のメンバーが書いた原稿を、サイト管理者がmarkdownに変換して、サイトに追加する手順を説明する。
+- 注意点として画像などは必ず生データをもらうこと。boxnote, google docs, wordなどから画像をダウンロードすることは難しいため。
+- 数式は現状対応していないので、数式を使う場合は、画像として保存してもらうこと。
+- 画像は、できるだけpng形式で保存してもらうこと。jpg形式は、画質が悪くなるため。
+## 文章
+1. 原稿のテキストをコピー
+2. `markdonws/hoge.md`を作成し、テキストをペースト
+3. `##` `###` `####`などを利用して、見出しを作成
+4. リンクは `[text](link)`のフォーマットで書く
+5. 太字は`**text**`で書く
+6. 箇条書きは`-`で書く
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+## 画像
+1. 画像を`static/images`以下に格納する
+2. ファイル名をページ名や内容に関連させる 例:`wet-1.png`
+3. 原稿内で`/images/hoge.png` をpathで指定する 
+4. 画像はtableを利用してfig titleを付けている
+  ```
+  |![遺伝子設計ソフトウェア Snap Gene®の作業画面](/images/wet-1.png)|
+  |:--:|
+  |<b>Fig.1 遺伝子設計ソフトウェア Snap Gene®の作業画面</b>|
+````
+5. iframeなどはmarkdown原稿にべた書きしている
