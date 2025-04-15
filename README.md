@@ -15,7 +15,7 @@
 │   │   └── main.css                  # CSSファイル
 │   └── image                         # 画像用のフォルダ(コンポーネントで使用)
 │       ├── member                    # メンバー画像用のフォルダ    
-│       │   └── xxx.jpg
+│       │   └── xxx.png
 │       └── xxx.png
 ├── components                        # Vueコンポーネント用のフォルダ
 │   ├── Atoms
@@ -52,7 +52,7 @@
 │   └── wet.md                        # wet班の説明
 ├── middleware                        # ミドルウェア用のフォルダ
 │   └── redirect.js                   # URLの最後の/のリダイレクト
-├── nuxt.config.js
+├── nuxt.config.js                    # Nuxt.jsの設定ファイル
 ├── package-lock.json                 # npmのパッケージ管理ファイル
 ├── package.json                      # npmのパッケージ管理ファイル 
 ├── pages                             # ページ用のフォルダ(Vueコンポーネント)
