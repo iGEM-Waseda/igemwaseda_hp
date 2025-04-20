@@ -137,9 +137,9 @@
           :name="`鳥山 優人`"
           :team="`Dry`"
           :major="`基幹理工学部 情報通信学科`"
-          :highSchool="`早稲田実業学校`"
-          :hobbies="`旅行/鉄道/スキー/昔の曲を聴く`"
-          :introText="`生物×プログラミングという言葉に惹かれました。頑張ります！`"
+          :highSchool="`早稲田大学系属早稲田実業学校高等部`"
+          :hobbies="`旅行/鉄道/昔の曲を聴く`"
+          :introText="`生物×プログラミングという言葉に惹かれて入会しました。世界に通用する早稲田を目指して頑張ります！`"
         />
         <MemberCard
           :imagePath="require('@/assets/image/member/jun-kawabata.jpg')"
