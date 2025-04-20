@@ -10,8 +10,8 @@
       合成生物学は、今注目を浴びている最先端の研究分野です。組織・細胞・遺伝子などの生物の構成要素を部品とみなし、それらを組み合わせて生命機能を人工的に設計したり、人工の生物システムを構築する学問分野だと言われています。(日経バイオテクONLINEより転載)。
     </Section>
     <Section :menu="`projects`">
-      <b>2024年度大会</b>では、大学生チームTop10をはじめとする、以下の賞を受賞することができました。この成績は日本の大学チーム過去最高の成績で、2つのトロフィーと1つの金メダルを日本に持ち帰ることができました。
-      <img class="w mx-auto" src="/images/awards2024.png" alt="Awards of iGEM Waseda Tokyo 2024"/>
+      <b>2024年度大会</b>では、<a class="underline text-teal-500 hover:text-teal-600" href="https://2024.igem.wiki/waseda-tokyo/">「PET TWINS -PETase The Way to ImplementatioN Success-」</a>をテーマに、大学生チームTop10をはじめとする、以下の賞を受賞することができました。この成績は日本の大学チーム過去最高の成績で、2つのトロフィーと1つの金メダルを日本に持ち帰ることができました。
+      <img class="w mx-auto pt-2 pb-2" src="/images/awards2024.png" alt="Awards of iGEM Waseda Tokyo 2024"/>
       <p><b>・Undergraduate Top10（学部生部門トップ10入賞）</b><br>
       195チームが参加した大学学部生部門において、iGEM 21年の歴史で日本チームとして初めてトップ10に選ばれる快挙を達成しました。</p><br>
 
@@ -25,7 +25,7 @@
       シミュレーションを用いた研究成果が評価され、最終候補にノミネートされ上位5チームに選ばれました。</p><br>
 
       <p><b>・Nominee for Best Wiki（Webページデザイン賞受賞）</b><br>
-      私たちのプロジェクトWebページが、わかりやすく洗練されたデザインで評価され、上位10チームに選ばれました。iGEM-Waseda2024のWikiはこちら（<a class="underline text-teal-500 hover:text-teal-600" href="https://2024.igem.wiki/waseda-tokyo/">https://2024.igem.wiki/waseda-tokyo/</a>）から。</p><br>
+      私たちのプロジェクトWebページが、わかりやすく洗練されたデザインで評価され、上位10チームに選ばれました。iGEM-Waseda2024のWikiは<a class="underline text-teal-500 hover:text-teal-600" href="https://2024.igem.wiki/waseda-tokyo/">こちら</a>から。</p><br>
 
       <p><b>・Gold Medal</b><br>
       iGEMが規定したすべての基準を達成することができ、金メダルを獲得することができました。</p><br>
