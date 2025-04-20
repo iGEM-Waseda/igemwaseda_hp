@@ -21,7 +21,7 @@
 
       <!-- Navbar -->
       <div class="hidden md:block">
-        <ul class="flex space-x-8">
+        <ul class="flex space-x-7">
           <li v-for ="(menu, index) in $store.state.menu" :key="index">
             <NuxtLink :to="menu.to" class="text-gray-600 hover:text-teal-500 active:text-teal-700 text-sm md:text-xl font-bold transition duration-100">
               {{ menu.name }}
