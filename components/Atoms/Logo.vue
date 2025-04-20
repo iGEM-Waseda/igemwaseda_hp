@@ -1,5 +1,5 @@
 <template>
-  <div class="border border-slate-300 hover:border-slate-400 rounded-lg border-2 p-2">
+  <div class="border border-slate-300 hover:border-teal-500 rounded-lg border-2 p-2">
     <NuxtLink :to="LinkTo" class="inline-flex items-center text-black-800 sm:text-xl text-lg font-bold gap-2.5" aria-label="logo">
       <img :src="require(`@/assets/image/${imgURL}`)" alt="" class="sm:h-10 sm:w-10 w-6 h-6">
       {{ Text }}

@@ -25,18 +25,18 @@
       シミュレーションを用いた研究成果が評価され、最終候補にノミネートされ上位5チームに選ばれました。</p><br>
 
       <p><b>・Nominee for Best Wiki（Webページデザイン賞受賞）</b><br>
-      私たちのプロジェクトWebページが、わかりやすく洗練されたデザインで評価され、上位10チームに選ばれました。iGEM-Waseda2024のWikiはこちら（<a class="underline text-teal-500 hover:text-teal-500" href="https://2024.igem.wiki/waseda-tokyo/">https://2024.igem.wiki/waseda-tokyo/</a>）から。</p><br>
+      私たちのプロジェクトWebページが、わかりやすく洗練されたデザインで評価され、上位10チームに選ばれました。iGEM-Waseda2024のWikiはこちら（<a class="underline text-teal-500 hover:text-teal-600" href="https://2024.igem.wiki/waseda-tokyo/">https://2024.igem.wiki/waseda-tokyo/</a>）から。</p><br>
 
       <p><b>・Gold Medal</b><br>
       iGEMが規定したすべての基準を達成することができ、金メダルを獲得することができました。</p><br>
 
-      <b>2022年度大会</b>では、<a class="underline text-teal-500 hover:text-teal-500" href="https://2022.igem.wiki/waseda-tokyo/">「Cell Freedom  ~ Expanding the Possibility of cell-free system ~」</a>をテーマに、ゴールドメダルを獲得し、また基礎技術開発部門(Foundational Advancement)の最優秀賞候補にノミネートされました。
+      <b>2022年度大会</b>では、<a class="underline text-teal-500 hover:text-teal-600" href="https://2022.igem.wiki/waseda-tokyo/">「Cell Freedom  ~ Expanding the Possibility of cell-free system ~」</a>をテーマに、ゴールドメダルを獲得し、また基礎技術開発部門(Foundational Advancement)の最優秀賞候補にノミネートされました。
       <br><br>
 
-      <b>2020年度大会</b>では、<a class="underline text-teal-500 hover:text-teal-500" href="https://2020.igem.org/Team:Waseda">「Zombie vs Samurai」</a> をテーマに、初のゴールドメダルだけでなく、情報処理部門(Information Processing)で最優秀賞を獲得し、教育部門で3位以内にノミネートされました。<br>
+      <b>2020年度大会</b>では、<a class="underline text-teal-500 hover:text-teal-600" href="https://2020.igem.org/Team:Waseda">「Zombie vs Samurai」</a> をテーマに、初のゴールドメダルだけでなく、情報処理部門(Information Processing)で最優秀賞を獲得し、教育部門で3位以内にノミネートされました。<br>
     </Section>
     <Section :menu="`events`">
-      iGEM Wasedaは週に1回、<a class="underline text-teal-500 hover:text-teal-500" target="_blank" href="https://www.koubou.sci.waseda.ac.jp/summary/LearningCommons61.html">61号館1階  ラーニング・コモンズ</a>でミーティングをしています。
+      iGEM Wasedaは週に1回、<a class="underline text-teal-500 hover:text-teal-600" target="_blank" href="https://www.koubou.sci.waseda.ac.jp/summary/LearningCommons61.html">61号館1階  ラーニング・コモンズ</a>でミーティングをしています。
       <!-- 生物実験は、<a class="underline text-teal-500 hover:text-teal-500" target="_blank" href="https://www.waseda.jp/inst/twins/">先端生命医科学センター（TWIns）</a>で行っています。 -->
       また、不定期で出張授業や専門家へのインタビュー、iGEM Japan Comunity共同イベントなども開催しています。
       <br><br>
