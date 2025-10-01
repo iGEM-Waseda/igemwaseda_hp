@@ -20,7 +20,7 @@ import Social from '../Molecules/Social.vue';
       <!-- social - end -->
     </div>
 
-    <div class="text-gray-400 text-lg text-center py-8">© 2022 - iGEM Waseda Tokyo.</div>
+    <div class="text-gray-400 text-lg text-center py-8">© 2022-2025 - iGEM Waseda Tokyo.</div>
   </footer>
 </div>
 </template>
