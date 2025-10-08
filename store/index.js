@@ -20,11 +20,11 @@ export const state = () => ({
       title: "活動内容",
       to: 'events'
     },
-    team: {
-      name: "チーム",
-      title: "チーム紹介",
-      to: 'team'
-    },
+    // team: {
+    //   name: "チーム",
+    //   title: "チーム紹介",
+    //   to: 'team'
+    // },
     member: {
       name: "メンバー",
       title: "メンバー",

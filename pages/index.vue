@@ -35,14 +35,13 @@
 
       <b>2020年度大会</b>では、<a class="underline text-teal-500 hover:text-teal-600" href="https://2020.igem.org/Team:Waseda">「Zombie vs Samurai」</a> をテーマに、初のゴールドメダルだけでなく、情報処理部門(Information Processing)で最優秀賞を獲得し、教育部門で3位以内にノミネートされました。<br>
     </Section>
-    <Section :menu="`events`">
+    <!-- <Section :menu="`events`">
       iGEM Wasedaは週に1回、<a class="underline text-teal-500 hover:text-teal-600" target="_blank" href="https://www.koubou.sci.waseda.ac.jp/summary/LearningCommons61.html">61号館1階  ラーニング・コモンズ</a>でミーティングをしています。
-      <!-- 生物実験は、<a class="underline text-teal-500 hover:text-teal-500" target="_blank" href="https://www.waseda.jp/inst/twins/">先端生命医科学センター（TWIns）</a>で行っています。 -->
       また、不定期で出張授業や専門家へのインタビュー、iGEM Japan Comunity共同イベントなども開催しています。
       <br><br>
       <Timeline class="md:w-3/5 mx-auto" id="Wasedaigem" sourceType="profile" :options="{ tweetLimit: '2' }"/>
-    </Section>
-    <Section :menu="`team`">
+    </Section> -->
+    <Section :menu="`events`">
       iGEMの活動は、生物の研究だけではありません。3つの分野、Wet、Dry、Human Practiceに分かれます。
       Wetでは、先行研究を調査し、生物実験を行います。
       Dryでは、実験をシミュレーションし、デバイスやアプリを作成します。
