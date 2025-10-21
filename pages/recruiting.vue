@@ -2,21 +2,21 @@
     <div>
       <MarkDown :filepath= "filepath"/>
 
-      <!-- <div class="w-full sm:w-1/2 lg:w-[1024px] flex flex-col p-4 sm:p-8 !pb-0 m-auto">
-        <h2 class="text-gray-800 text-2xl lg:text-4xl font-bold mb-4">2025春 新メンバー募集中</h2>
+      <div class="w-full sm:w-1/2 lg:w-[1024px] flex flex-col p-4 sm:p-8 !pb-0 m-auto">
+        <h2 class="text-gray-800 text-2xl lg:text-4xl font-bold mb-4">2025冬 新メンバー募集中</h2>
         <div class="flex justify-center items-center flex-wrap m-2">
-            <img class="w-1/3 m-2" src="/images/flyer-1.jpg" alt="iGEM-Waseda 2025春新歓チラシ表">
-            <img class="w-1/3 m-2" src="/images/flyer-2.jpg" alt="iGEM-Waseda 2025春新歓チラシ裏">
+            <img class="w-1/3 m-2" src="/images/flyer-2025-winter-1.png" alt="iGEM-Waseda 2025冬新歓チラシ表">
+            <img class="w-1/3 m-2" src="/images/flyer-2025-winter-2.png" alt="iGEM-Waseda 2025冬新歓チラシ裏">
         </div>
         <p class="text-gray-500 md:text-xl mx-auto my-2 md:my-4 mb-0">
-            入会を検討している方向けに新歓説明会を行います。入会を希望している方はこの説明会に必ず参加してください。参加するには、上記画像のQRコードまたは
+            入会を検討している方向けに新歓説明会を行います。入会を希望している方はこの説明会に必ず参加してください。参加するには、上記チラシのQRコードまたは
             <a class="underline text-teal-500 hover:text-teal-600"
-            href="https://forms.gle/NVn5QTHBY6ataeVr7"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeuEMtIyLyucXHfZyVcQFMv16rU8bLxSBLZzCqj4Z9HTK7C7Q/viewform?usp=sharing&ouid=105628267663667860800"
             target="_blank"
-            rel="noopener">リンク</a>
+            rel="noopener">このリンク</a>
             から参加フォームを記入してください。
         </p>
-      </div> -->
+      </div>
 
       <div class="w-full sm:w-1/2 lg:w-[1024px] flex flex-col p-4 sm:p-8 !pb-0 !pt-0 m-auto">
         <h2 class="text-gray-800 text-2xl md:text-4xl font-bold text-start mt-16 pb-4">Q＆A</h2>
