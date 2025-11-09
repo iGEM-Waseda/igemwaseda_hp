@@ -2,7 +2,7 @@
   <div>
     <MarkDown :filepath="filepath" />
 
-    <div class="w-full sm:w-1/2 lg:w-[1024px] flex flex-col p-4 sm:p-8 !pb-0 m-auto">
+    <!-- <div class="w-full sm:w-1/2 lg:w-[1024px] flex flex-col p-4 sm:p-8 !pb-0 m-auto">
       <h2 class="text-gray-800 text-2xl lg:text-4xl font-bold mb-4">2025冬 新メンバー募集中</h2>
 
       <div class="w-full sm:w-1/2 lg:w-[1024px]">
@@ -49,7 +49,7 @@
         </a>
         から参加フォームを記入してください。
       </p>
-    </div>
+    </div> -->
 
     <div class="w-full sm:w-1/2 lg:w-[1024px] flex flex-col p-4 sm:p-8 !pb-0 !pt-0 m-auto">
       <h2 class="text-gray-800 text-2xl md:text-4xl font-bold text-start mt-16 pb-4">Q＆A</h2>
