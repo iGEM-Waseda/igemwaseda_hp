@@ -3,7 +3,7 @@
   <div>
     <MarkDown :filepath="filepath" />
     <div class="max-w-screen-lg px-4 md:px-8 mx-auto sm:my-8 my-16">
-      <h2 class="text-gray-800 text-2xl md:text-4xl font-bold text-start my-8">
+      <!-- <h2 class="text-gray-800 text-2xl md:text-4xl font-bold text-start my-8">
         Team Leaders
       </h2>
       <div
@@ -38,7 +38,7 @@
           :hobbies="`スポーツ観戦、百貨店めぐり`"
           :introText="`ただ好きなことを研究して終わりではなく、社会実装までを考えて発表することにとても惹かれました！頑張ります！`"
         />
-      </div>
+      </div> -->
       <h2 class="text-gray-800 text-2xl md:text-4xl font-bold text-start my-8">
         Senior(B4)
       </h2>
@@ -59,7 +59,7 @@
       <div
         class="grid grid-cols-2 md:grid-cols-4 gap-x-4 lg:gap-x-8 gap-y-8 lg:gap-y-12"
       >
-        <MemberCard
+        <!-- <MemberCard
           :imagePath="require('@/assets/image/member/yuko-ota.jpg')"
           :name="`太田 裕子`"
           :team="`Wet`"
@@ -76,7 +76,7 @@
           :highSchool="`横浜緑ケ丘高校`"
           :hobbies="`お散歩`"
           :introText="`生物学への愛を深めたいです。頑張ります。`"
-        />
+        /> -->
         <MemberCard
           :imagePath="require('@/assets/image/member/shietsu-ko.png')"
           :name="`高 子越`"
@@ -88,6 +88,16 @@
         />
 
         <MemberCard
+          :imagePath="require('@/assets/image/member/daisuke-kondo_v2.jpg')"
+          :name="`近藤 大介`"
+          :team="`Wet / HP`"
+          :major="`先進理工学部 生命医科学科`"
+          :highSchool="`早稲田大学高等学院`"
+          :hobbies="`スポーツ観戦、百貨店めぐり`"
+          :introText="`ただ好きなことを研究して終わりではなく、社会実装までを考えて発表することにとても惹かれました！頑張ります！`"
+        />
+
+        <MemberCard
           :imagePath="require('@/assets/image/member/sena-takahashi.png')"
           :name="`高橋 せな`"
           :team="`Wet / Design`"
@@ -96,7 +106,7 @@
           :hobbies="`お出かけ、読書`"
           :introText="`新しい発想から生物を設計する研究をするという合成生物学に惹かれて入会しました。研究やイラスト制作など色々頑張っていきます！`"
         />
-        <MemberCard
+        <!-- <MemberCard
           :imagePath="require('@/assets/image/member/chiyo-handa.jpg')"
           :name="`半田 知世`"
           :team="`Design`"
@@ -122,7 +132,7 @@
           :highSchool="`早稲田高校`"
           :hobbies="`ハイキング/温泉巡り/街歩き/建築/寺社巡り/菜園/鉄道/献血`"
           :introText="`生物・生命に胸いっぱいの愛を届けます！`"
-        />
+        /> -->
 
         <MemberCard
           :imagePath="require('@/assets/image/member/shiho-maeda.jpg')"
@@ -134,6 +144,15 @@
           :introText="`学び続けて合成生物学で世界を目指します！`"
         />
         <MemberCard
+          :imagePath="require('@/assets/image/member/jun-kawabata.jpg')"
+          :name="`川端 準`"
+          :team="`Dry`"
+          :major="`人間科学部 人間情報科学科`"
+          :highSchool="`早稲田渋谷シンガポール校`"
+          :hobbies="`語学、読書、プログラミング、鉄道`"
+          :introText="`バイオインフォマティックスの分野で頑張っていきます。よろしくお願いします。`"
+        />
+        <MemberCard
           :imagePath="require('@/assets/image/member/itsuki-togawa.png')"
           :name="`戸川 樹`"
           :team="`Dry`"
@@ -141,15 +160,6 @@
           :highSchool="`薬園台高校`"
           :hobbies="`音楽を聞く、ゲーム`"
           :introText="`数学と生物という、やりたかったことをやれる事になって嬉しいです。頑張ります！`"
-        />
-        <MemberCard
-          :imagePath="require('@/assets/image/member/soudai-nao.png')"
-          :name="`奈尾 颯大`"
-          :team="`Dry`"
-          :major="`先進理工学部 物理学科`"
-          :highSchool="`立教池袋高等学校`"
-          :hobbies="`散歩、国際政治研究、物理`"
-          :introText="`世界の誰も知らない答えを、持ち得る数理の言葉で説明します！`"
         />
         <MemberCard
           :imagePath="require('@/assets/image/member/yuto-toriyama.jpg')"
@@ -161,13 +171,13 @@
           :introText="`生物×プログラミングという言葉に惹かれて入会しました。世界に通用する早稲田を目指して頑張ります！`"
         />
         <MemberCard
-          :imagePath="require('@/assets/image/member/jun-kawabata.jpg')"
-          :name="`川端 準`"
+          :imagePath="require('@/assets/image/member/soudai-nao.png')"
+          :name="`奈尾 颯大`"
           :team="`Dry`"
-          :major="`人間科学部 人間情報科学科`"
-          :highSchool="`早稲田渋谷シンガポール校`"
-          :hobbies="`語学、読書、プログラミング、鉄道`"
-          :introText="`バイオインフォマティックスの分野で頑張っていきます。よろしくお願いします。`"
+          :major="`先進理工学部 物理学科`"
+          :highSchool="`立教池袋高等学校`"
+          :hobbies="`散歩、国際政治研究、物理`"
+          :introText="`世界の誰も知らない答えを、持ち得る数理の言葉で説明します！`"
         />
       </div>
 
@@ -177,7 +187,7 @@
       <div
         class="grid grid-cols-2 md:grid-cols-4 gap-x-4 lg:gap-x-8 gap-y-8 lg:gap-y-12"
       >
-        <MemberCard
+        <!-- <MemberCard
           :imagePath="require('@/assets/image/member/juri-kawazu.jpg')"
           :name="`河津 樹里`"
           :team="`Wet / HP`"
@@ -194,6 +204,33 @@
           :highSchool="`島根県立松江北高等学校`"
           :hobbies="`テニス、野球観戦、美味しいものを食べる`"
           :introText="`合成生物学やバイオインフォマティクスに魅力を感じ、入会しました。たくさんのことを学びながら全力で頑張ります！`"
+        /> -->
+        <MemberCard
+          :imagePath="require('@/assets/image/member/masahiro-chiba.png')"
+          :name="`千葉 将博`"
+          :team="`【幹事長】/ Wet`"
+          :major="`先進理工学部 生命医科学科`"
+          :highSchool="`都立日比谷高校`"
+          :hobbies="`テニス、ポケモン、ギター`"
+          :introText="`合成生物学の力で早稲田から世界に貢献します！`"
+        />
+        <MemberCard
+          :imagePath="require('@/assets/image/member/ryosei-kimura.png')"
+          :name="`木村 遼生`"
+          :team="`【副幹事長】/ Wet / HP`"
+          :major="`先進理工学部 生命医科学科`"
+          :highSchool="`土浦日本大学高等学校`"
+          :hobbies="`食べ歩き/服/写真`"
+          :introText="`不屈の探究心で、世界に通用するプロジェクトを作り上げます！`"
+        />
+        <MemberCard
+          :imagePath="require('@/assets/image/member/keigo-marubashi.jpg')"
+          :name="`丸橋 慶吾`"
+          :team="`【会計】/ HP`"
+          :major="`先進理工学部 生命医科学科`"
+          :highSchool="`西大和学園`"
+          :hobbies="`野球観戦`"
+          :introText="`チームの力になれるように頑張ります！`"
         />
         <MemberCard
           :imagePath="require('@/assets/image/member/taita-horiuchi.jpg')"
@@ -204,25 +241,14 @@
           :hobbies="`ジャズ/サックス`"
           :introText="`iGEMに参加した高校のOBの方のお話を聴き興味を持ち、参加しました。全力で頑張ります！`"
         />
-
         <MemberCard
-          :imagePath="require('@/assets/image/member/ryosei-kimura.png')"
-          :name="`木村 遼生`"
+          :imagePath="require('@/assets/image/member/daiki-mori.jpg')"
+          :name="`森 大樹`"
           :team="`Wet`"
           :major="`先進理工学部 生命医科学科`"
-          :highSchool="`土浦日本大学高等学校`"
-          :hobbies="`食べ歩き/服/写真`"
-          :introText="`不屈の探究心で、世界に通用するプロジェクトを作り上げます！`"
-        />
-
-        <MemberCard
-          :imagePath="require('@/assets/image/member/keigo-marubashi.jpg')"
-          :name="`丸橋 慶吾`"
-          :team="`HP`"
-          :major="`先進理工学部 生命医科学科`"
-          :highSchool="`西大和学園`"
-          :hobbies="`野球観戦`"
-          :introText="`チームの力になれるように頑張ります！`"
+          :highSchool="`東京都市大学付属高校`"
+          :hobbies="`ギター/読書`"
+          :introText="`世界一を目指して尽力していきます`"
         />
       </div>
 
@@ -244,22 +270,31 @@
         <MemberCard
           :imagePath="require('@/assets/image/member/manaka-saito.jpg')"
           :name="`齋藤 愛果`"
-          :team="`Wet`"
+          :team="`Wet / HP`"
           :major="`教育学部 理学科 生物学専修`"
           :highSchool="`大妻多摩高等学校`"
           :hobbies="`音楽（Eve、ヨルシカ、ずとまよ）を聴くこと`"
           :introText="`分野を限らず生物学を極めていきたいです！頑張ります！`"
         />
         <MemberCard
+          :imagePath="require('@/assets/image/member/tomohiro-segawa.png')"
+          :name="`瀨川 智大`"
+          :team="`Wet`"
+          :major="`先進理工学部 生命医科学科`"
+          :highSchool="`早稲田大学系属早稲田佐賀高校`"
+          :hobbies="`旅行/食べれる植物を調べること`"
+          :introText="`化学と生物が好きでこの二つの学問を取り深く知りたいと思って入会しました。`"
+        />
+        <MemberCard
           :imagePath="require('@/assets/image/member/chiaki-naito.jpg')"
           :name="`内藤 千晶`"
-          :team="`Wet`"
+          :team="`Wet / HP`"
           :major="`先進理工学部 電気・情報生命工学科`"
           :highSchool="`早稲田大学本庄高等学院`"
           :hobbies="`ハリーポッターを観る`"
           :introText="`いつでもわくわくを忘れずに、世界に挑戦します！`"
         />
-        <MemberCard
+        <!-- <MemberCard
           :imagePath="require('@/assets/image/member/saori-nagai.jpg')"
           :name="`永井 さほり`"
           :team="`Wet`"
@@ -267,7 +302,7 @@
           :highSchool="`渋谷教育学園渋谷高校`"
           :hobbies="`音楽/散歩`"
           :introText="`大好きな生物で多くのことを吸収してチームに貢献します！！`"
-        />
+        /> -->
         <MemberCard
           :imagePath="require('@/assets/image/member/sota-nagase.jpg')"
           :name="`長瀨 颯太`"
@@ -289,7 +324,7 @@
         <MemberCard
           :imagePath="require('@/assets/image/member/eito-yamada.jpg')"
           :name="`山田 瑛斗`"
-          :team="`Wet`"
+          :team="`Wet / HP`"
           :major="`先進理工学部 生命医科学科`"
           :highSchool="`早稲田大学系属早稲田実業学校高等部`"
           :hobbies="`筋トレ/ボルダリング`"
@@ -314,9 +349,18 @@
           :introText="`情報技術の持つ可能性を探求し、チームの一員として力になれるよう全力を尽くします！`"
         />
         <MemberCard
+          :imagePath="require('@/assets/image/member/tomoki-abukawa.jpg')"
+          :name="`虻川 友輝`"
+          :team="`Dry`"
+          :major="`先進理工学部 応用化学科`"
+          :highSchool="`千葉県立船橋高等学校`"
+          :hobbies="`芸術鑑賞/美味しいものを食べること`"
+          :introText="`化学で研究に貢献できるよう頑張ります`"
+        />
+        <MemberCard
           :imagePath="require('@/assets/image/member/karen-kaito.jpg')"
           :name="`皆藤 華恋`"
-          :team="`Dry`"
+          :team="`Dry / Design`"
           :major="`基幹理工学部 学系3`"
           :highSchool="`早稲田大学系属早稲田実業学校高等部`"
           :hobbies="`絵/音楽/読書/映画`"
@@ -506,7 +550,6 @@
       </div>
     </div>
     </div>
-  </div>
 </template>
 <script>
 import MarkDown from "../components/MarkDown.vue";
